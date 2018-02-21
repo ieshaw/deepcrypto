@@ -7,4 +7,6 @@ from Data.scripts.data import data
 
 X,Y = data.import_data(set= 'train')
 
-print((pd.to_datetime(X.index, format='%Y-%m-%d %H:%M:%S')).date)
+print(X.index)
+
+print((pd.to_datetime(X.index, format='%Y-%m-%d %H:%M:%S')).year)

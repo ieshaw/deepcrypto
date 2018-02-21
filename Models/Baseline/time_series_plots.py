@@ -1,15 +1,14 @@
 __author__ = 'Ian'
 
 import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
 import os
 import pandas as pd
 from Data.scripts.data import data
 
 def time_series_plot(returns_series, ticker = 'BTC'):
 
-
-    #returns_series.index = pd.to_datetime(returns_series.index, format='%Y-%m-%d %H:%M:%S')
-
+    returns_series.index = pd.to_datetime(returns_series.index, format='%Y-%m-%d %H:%M:%S')
 
     fig_hist = plt.figure()
     plt.title('Histogram of {0} {1} Returns'.format(ticker, 'Hourly'))
@@ -18,10 +17,19 @@ def time_series_plot(returns_series, ticker = 'BTC'):
     #generate time series of returns
 
     fig_ts = plt.figure()
+    ((returns_series + 1).cumprod()).plot(rot=45)
+    #returns_series.plot(rot=45)
+    # plt.gcf().autofmt_xdate()
+    # myFmt = mdates.DateFormatter('%m/%Y')
+    # plt.gca().xaxis.set_major_formatter(myFmt)
+
+    # locator = mdates.MonthLocator()
+    # plt.gca().xaxis.set_major_locator(locator)
+    #
+    # plt.gcf().autofmt_xdate()
     plt.xlabel('Date')
     plt.ylabel('Returns')
     plt.title('Time Series of {0} {1} Returns'.format(ticker, 'Hourly'))
-    ((returns_series + 1).cumprod()).plot(rot=45)
 
     #save results
 
