@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdc510df-b12c-4d60-aa7a-0efe9971852c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Models/Baseline/plots/DASH_hist.png" afterPath="$PROJECT_DIR$/Models/Baseline/plots/DASH_hist.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Models/Baseline/plots/ETH_hist.png" afterPath="$PROJECT_DIR$/Models/Baseline/plots/ETH_hist.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Models/Baseline/plots/LTC_hist.png" afterPath="$PROJECT_DIR$/Models/Baseline/plots/LTC_hist.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Models/Baseline/plots/XMR_hist.png" afterPath="$PROJECT_DIR$/Models/Baseline/plots/XMR_hist.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Models/Baseline/plots/XRP_hist.png" afterPath="$PROJECT_DIR$/Models/Baseline/plots/XRP_hist.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Models/Baseline/evaluate_strategy.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Models/Baseline/time_series_plots.py" afterPath="$PROJECT_DIR$/Models/Baseline/time_series_plots.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,8 +19,9 @@
     <SUITE FILE_PATH="coverage/deepcrypto$data_load_example.coverage" NAME="data_load_example Coverage Results" MODIFIED="1518307278947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models" />
     <SUITE FILE_PATH="coverage/deepcrypto$all_csv_to_one.coverage" NAME="all_csv_to_one Coverage Results" MODIFIED="1517971683254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data" />
     <SUITE FILE_PATH="coverage/deepcrypto$test_rnn.coverage" NAME="test_rnn Coverage Results" MODIFIED="1518320927401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/RNN" />
-    <SUITE FILE_PATH="coverage/deepcrypto$time_series_plots.coverage" NAME="time_series_plots Coverage Results" MODIFIED="1519174998858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/Baseline" />
+    <SUITE FILE_PATH="coverage/deepcrypto$time_series_plots.coverage" NAME="time_series_plots Coverage Results" MODIFIED="1519180650728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/Baseline" />
     <SUITE FILE_PATH="coverage/deepcrypto$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1519174356467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/Baseline" />
+    <SUITE FILE_PATH="coverage/deepcrypto$evaluate_strategy.coverage" NAME="evaluate_strategy Coverage Results" MODIFIED="1519180768107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/Baseline" />
     <SUITE FILE_PATH="coverage/deepcrypto$split_data.coverage" NAME="split_data Coverage Results" MODIFIED="1517976699662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data/scripts" />
     <SUITE FILE_PATH="coverage/deepcrypto$rnn.coverage" NAME="rnn Coverage Results" MODIFIED="1519151921688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/RNN" />
   </component>
@@ -39,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/Models/data_load_example.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="36" />
               <folding>
                 <element signature="e#20#29#0" expanded="true" />
               </folding>
@@ -47,22 +43,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="time_series_plots.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Models/Baseline/time_series_plots.py">
+      <file leaf-file-name="evaluate_strategy.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Models/Baseline/evaluate_strategy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            <state relative-caret-position="350">
+              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="2" selection-end-line="53" selection-end-column="27" />
               <folding>
                 <element signature="e#20#51#0" expanded="true" />
+                <element signature="e#195#633#0" expanded="false" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ETH_hist.png" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Models/Baseline/plots/ETH_hist.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -101,6 +91,7 @@
         <option value="$PROJECT_DIR$/Models/data_load_example.py" />
         <option value="$PROJECT_DIR$/Models/Baseline/scratch.py" />
         <option value="$PROJECT_DIR$/Models/Baseline/time_series_plots.py" />
+        <option value="$PROJECT_DIR$/Models/Baseline/evaluate_strategy.py" />
       </list>
     </option>
   </component>
@@ -216,7 +207,7 @@
       <recent name="$PROJECT_DIR$/Data/data_csv" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.time_series_plots">
+  <component name="RunManager" selected="Python.evaluate_strategy">
     <configuration default="false" name="rnn" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -231,24 +222,6 @@
       <module name="deepcrypto" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Models/RNN/rnn.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="darnn" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Models/RNN" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="deepcrypto" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Models/RNN/darnn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -303,6 +276,24 @@
       <module name="deepcrypto" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Models/Baseline/scratch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="evaluate_strategy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Models/Baseline" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="deepcrypto" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Models/Baseline/evaluate_strategy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -523,18 +514,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.rnn" />
-      <item index="1" class="java.lang.String" itemvalue="Python.darnn" />
-      <item index="2" class="java.lang.String" itemvalue="Python.test_rnn" />
-      <item index="3" class="java.lang.String" itemvalue="Python.time_series_plots" />
-      <item index="4" class="java.lang.String" itemvalue="Python.scratch" />
+      <item index="1" class="java.lang.String" itemvalue="Python.test_rnn" />
+      <item index="2" class="java.lang.String" itemvalue="Python.time_series_plots" />
+      <item index="3" class="java.lang.String" itemvalue="Python.scratch" />
+      <item index="4" class="java.lang.String" itemvalue="Python.evaluate_strategy" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.time_series_plots" />
-        <item index="1" class="java.lang.String" itemvalue="Python.scratch" />
-        <item index="2" class="java.lang.String" itemvalue="Python.rnn" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test_rnn" />
-        <item index="4" class="java.lang.String" itemvalue="Python.darnn" />
+        <item index="0" class="java.lang.String" itemvalue="Python.evaluate_strategy" />
+        <item index="1" class="java.lang.String" itemvalue="Python.time_series_plots" />
+        <item index="2" class="java.lang.String" itemvalue="Python.scratch" />
+        <item index="3" class="java.lang.String" itemvalue="Python.rnn" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test_rnn" />
       </list>
     </recent_temporary>
   </component>
@@ -553,14 +544,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="997" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21567044" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21567044" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938075" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43861067" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19547658" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24914676" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938075" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -613,7 +604,7 @@
         <state relative-caret-position="560">
           <caret line="66" column="40" lean-forward="true" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
           <folding>
-            <element signature="e#90#108#0" expanded="true" />
+            <element signature="e#90#108#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -788,7 +779,7 @@
         <state relative-caret-position="571">
           <caret line="66" column="40" lean-forward="false" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
           <folding>
-            <element signature="e#90#108#0" expanded="true" />
+            <element signature="e#90#108#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -808,7 +799,7 @@
         <state relative-caret-position="110">
           <caret line="11" column="64" lean-forward="true" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
           <folding>
-            <element signature="e#20#51#0" expanded="true" />
+            <element signature="e#20#51#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -843,10 +834,15 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Models/Baseline/plots/ETH_hist.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Models/data_load_example.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="36" />
           <folding>
             <element signature="e#20#29#0" expanded="true" />
           </folding>
@@ -855,17 +851,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Models/Baseline/time_series_plots.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        <state relative-caret-position="100">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="91" />
           <folding>
             <element signature="e#20#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Models/Baseline/plots/ETH_hist.png">
+    <entry file="file://$PROJECT_DIR$/Models/Baseline/plots/baseline_ts.png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/Baseline/evaluate_strategy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="2" selection-end-line="53" selection-end-column="27" />
+          <folding>
+            <element signature="e#20#51#0" expanded="true" />
+            <element signature="e#195#633#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
