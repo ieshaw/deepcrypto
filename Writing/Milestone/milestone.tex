@@ -1,0 +1,272 @@
+\documentclass{article}
+\usepackage{graphicx,fancyhdr,amsmath,amssymb,amsthm,subfigure,url,hyperref}
+\usepackage[margin=1in]{geometry}
+\usepackage{caption}
+\usepackage{comment}
+\usepackage{framed} 
+\usepackage{indentfirst}
+%\usepackage{supertabular,booktabs}
+%\usepackage{supertabular}
+%\usepackage{xtab}
+\usepackage{csquotes}
+\usepackage{longtable}
+\usepackage{multicol}
+\usepackage{appendix}
+\setlength{\parindent}{1.5cm}
+
+%------------ Algorithm Enviroment --------------
+\usepackage{bbm}
+\usepackage{algorithmic}
+\usepackage[ruled,vlined]{algorithm2e}
+%%%%%%
+\SetKwProg{Fn}{Function}{}{}
+%%%%%%
+
+%------------ Bibliography  Setup --------------
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+
+%Includes "References" in the table of contents
+\usepackage[nottoc]{tocbibind}
+
+%------------ Hyperlinnk Setup --------------
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=magenta,      
+    urlcolor=black,
+    citecolor = black
+}
+
+% \hypersetup{
+%     colorlinks=true,
+%     linkcolor=blue,
+%     filecolor=magenta,      
+%     urlcolor=cyan,
+% }
+ 
+\urlstyle{same}
+
+%--------------------------------- Tables ----------------------------------
+\usepackage{multicol}
+\usepackage{xtab}
+\usepackage{booktabs}
+\usepackage{array}
+
+\makeatletter
+\let\mcnewpage\newpage
+\newcommand{\changenewpage}{%
+  \renewcommand\newpage{%
+    \if@firstcolumn
+      \hrule width\linewidth height0pt
+      \columnbreak
+    \else
+      \mcnewpage
+    \fi
+}}
+\makeatother
+
+%----------------------- Macros and Definitions --------------------------
+
+
+
+
+%%% FILL THIS OUT
+\newcommand{\p}{\mathbb{P}}
+\newcommand{\E}{\mathbb{E}}
+%%% END
+
+\newtheorem{theorem}{Theorem}
+
+
+
+\renewcommand{\theenumi}{\bf \arabic{enumi}}
+
+%\theoremstyle{plain}
+%\newtheorem{theorem}{Theorem}
+%\newtheorem{lemma}[theorem]{Lemma}
+
+\fancypagestyle{plain}{}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[RO,LE]{\sffamily\bfseries\large Stanford University}
+\fancyhead[LO,RE]{\sffamily\bfseries\large CS230: Deep Learning}
+%\fancyfoot[LO,RE]{\sffamily\bfseries\large \studentname: \suid @stanford.edu}
+\fancyfoot[RO,LE]{\sffamily\bfseries\thepage}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+
+\graphicspath{{figures/}}
+
+%-------------------------------- Title ----------------------------------
+
+\title{Deep Learning (CS230) Course Project Milestone}
+\author{
+  Persson, Joel\\
+  \texttt{joelpe@stanford.edu}
+  \and
+  Slottje, Andrew\\
+  \texttt{slottje@stanford.edu}
+  \and
+  Shaw, Ian\\
+  \texttt{ieshaw@stanford.edu}
+}
+
+%--------------------------------- Text ----------------------------------
+
+\begin{document}
+\maketitle
+
+\section*{Title}
+\begin{center}
+ Algorithmic Trading of Cryptocurrencies Using Neural Networks
+ \end{center}
+\section{Introduction}
+
+Cryptocurrencies became the talk of the financial world in 2017. With the surge of Bitcoin, Ethereum, Litecoin, and many others, everyone from institutional investors to the world's youth poured in money and interest. This relatively new asset class is just beginning to be explored by the forces of quantitative finance due to the development of data stores, established exchanges, and the increase in trading volume. Yet, this field is different than typical asset classes such as equities or fiat currencies with the dearth of regulation, no closing bells, and no friction between borders. This project seeks to explore the dynamics of this market through the lense of trading algorithms. These algorithms will capture linear and complex relationships through auto-regressive and beural network architectures. 
+
+
+\section{Approach}
+
+\subsection{Data}
+
+\underline{Plots}
+\begin{itemize}
+\item time series
+\item histogram of returns
+\item performance of algo by equal allocation
+\end{itemize}
+
+\underline{Table/Metrics}
+\begin{itemize}
+\item sharpe
+\item scorintino
+\item accuracy (precision)
+\item returns
+\item correlation of coins
+\end{itemize}
+
+\underline{Conversation}
+\begin{itemize}
+\item Size of data sets; logic of splits
+\item Where we got the data
+\end{itemize}
+
+\subsection{VAR}
+
+\underline{Plots}
+\begin{itemize}
+\item loss function by epoch
+\item Basic algo performance 
+\end{itemize}
+
+\underline{Table/Metrics}
+\begin{itemize}
+\item sharpe
+\item scorintino
+\item accuracy (precision)
+\item returns
+\item training time
+\end{itemize}
+
+\subsection{VARIMA}
+
+% \underline{Plots}
+% \begin{itemize}
+% \item loss function by epoch
+% \end{itemize}
+
+% \underline{Table/Metrics}
+% \begin{itemize}
+% \item loss function by epoch
+% \end{itemize}
+
+% \underline{Conversation}
+% \begin{itemize}
+% \item loss function by epoch
+% \end{itemize}
+
+\subsection{RNN}
+
+\underline{Plots}
+\begin{itemize}
+\item loss function by epoch
+\item Basic algo performance 
+\end{itemize}
+
+\underline{Table/Metrics}
+\begin{itemize}
+\item sharpe
+\item scorintino
+\item accuracy (precision)
+\item returns
+\item training time
+\end{itemize}
+
+% \underline{Conversation}
+% \begin{itemize}
+% \item loss function by epoch
+% \end{itemize}
+
+\subsection{R2N2}
+
+
+\underline{Plots}
+\begin{itemize}
+\item loss function by epoch
+\item Basic algo performance 
+\end{itemize}
+
+\underline{Table/Metrics}
+\begin{itemize}
+\item sharpe
+\item scorintino
+\item accuracy (precision)
+\item returns
+\item training time
+\end{itemize}
+
+% \underline{Conversation}
+% \begin{itemize}
+% \item loss function by epoch
+% \end{itemize}
+
+\subsection{Division of labor}
+
+\underline{Conversation}
+\begin{itemize}
+\item Who did what
+\end{itemize}
+
+\subsection{Work Moving Forward}
+
+% \underline{Plots}
+% \begin{itemize}
+% \item loss function by epoch
+% \end{itemize}
+
+% \underline{Table/Metrics}
+% \begin{itemize}
+% \item loss function by epoch
+% \end{itemize}
+
+\underline{Conversation}
+\begin{itemize}
+\item Overfitting to training?
+\item Who did what
+\item exploring other loss functions?
+\end{itemize}
+
+\subsection{Future Project Ideas}
+
+\underline{Conversation}
+\begin{itemize}
+\item Many ideas for future projects that have already come up
+\end{itemize}
+
+\bibliographystyle{unsrt}
+\bibliography{refs}
+\end{document}
+
+
