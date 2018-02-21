@@ -12,7 +12,8 @@ def time_series_plot(returns_series, ticker = 'BTC'):
 
     fig_hist = plt.figure()
     plt.title('Histogram of {0} {1} Returns'.format(ticker, 'Hourly'))
-    returns_series.hist(bins= 100, log= True)
+    plt.xlabel('Return %')
+    (100*returns_series).hist(bins= 100, log= True, range= [-15, 15])
 
     #generate time series of returns
 
