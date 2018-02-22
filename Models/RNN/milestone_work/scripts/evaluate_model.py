@@ -13,12 +13,18 @@ def run_strategy(Y_pred, Returns_df):
 
     #make negative returns 0 valued
 
-    Y_pred = Y_pred.where( Y_pred < 6e-06, 0)
+    Y_pred = Y_pred.where(Y_pred > 6e-06, 0)
 
     # normalize rows to a sum of 1
     # sum the rows of the prediction, divide by that number
 
-    Y_pred = Y_pred.divide(Y_pred.sum(axis=1), axis= 'index')
+    Y_pred_sum = Y_pred.sum(axis=1)
+
+    #if any sum is 0, meaning no investment, turn to 1 so as to avoid divide by 0
+
+    Y_pred_sum = Y_pred_sum.where(Y_pred_sum > 1e-06, 1)
+
+    Y_pred = Y_pred.divide(Y_pred_sum, axis= 'index')
 
     strat_returns_series = (Y_pred.multiply(Returns_df + 1, axis= 'index')).sum(axis=1)
 
@@ -47,30 +53,27 @@ def strat_metrics(strat_series):
 
 X,Y = data.import_data(set= 'train')
 
-Y_pred = pd.read_csv(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')) + '/csvs/y_pred.csv')
+Y_pred = pd.read_csv(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')) + '/csvs/y_pred.csv', index_col= 0)
 
 coins = ['ETH', 'XRP','LTC', 'DASH', 'XMR']
 
-
 strat_series = (run_strategy(Y_pred= Y_pred, Returns_df= Y)).cumprod()
+
 
 strat_series.index = pd.to_datetime(strat_series.index, format='%Y-%m-%d %H:%M:%S')
 
 print(strat_metrics(strat_series))
 
+output_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..')) + '/plots'
+if not os.path.exists(output_dir):
+    os.makedirs(output_dir)
 
-# output_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..')) + '/Baseline/plots'
-# if not os.path.exists(output_dir):
-#     os.makedirs(output_dir)
-#
-# fig_ts = plt.figure()
-#
+fig_ts = plt.figure()
 
+#Plotting
+strat_series.plot(rot= 45)
+plt.xlabel('Date')
+plt.ylabel('Returns')
+plt.title('Time Series of RNN Signal Returns')
 
-##Plotting
-# strat_series.plot(rot= 45)
-# plt.xlabel('Date')
-# plt.ylabel('Returns')
-# plt.title('Time Series of Equal Investment Returns')
-#
-# fig_ts.savefig('{0}/baseline_ts.png'.format(output_dir))
+fig_ts.savefig('{0}/rnn_ts.png'.format(output_dir))
