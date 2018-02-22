@@ -15,17 +15,20 @@ y_df = pd.DataFrame(index= shifted_normal_df.index)
 
 for coin in coins:
 
-    #create retruns
+    #create  0/1 retruns
 
-    shifted_normal_df[coin + 'return'] = shifted_normal_df[coin + 'return'].where(shifted_normal_df[coin + 'return'] > 0,
-                                                                                  other = 0)
+    # shifted_normal_df[coin + 'return'] = shifted_normal_df[coin + 'return'].where(shifted_normal_df[coin + 'return'] > 0,
+    #                                                                               other = 0)
+    #
+    # shifted_normal_df[coin + 'return'] = shifted_normal_df[coin + 'return'].where(
+    #     shifted_normal_df[coin + 'return'] == 0, other = 1)
 
-    shifted_normal_df[coin + 'return'] = shifted_normal_df[coin + 'return'].where(
-        shifted_normal_df[coin + 'return'] == 0, other = 1)
+    #y_df[coin] = shifted_normal_df[coin + 'return']
+
+    #y_df = y_df.astype(int)
+
+    #create real returns
 
     y_df[coin] = shifted_normal_df[coin + 'return']
-
-
-y_df = y_df.astype(int)
 
 y_df.to_csv(os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..')) + '/csvs/y.csv')

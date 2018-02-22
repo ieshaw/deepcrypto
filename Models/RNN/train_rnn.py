@@ -3,6 +3,9 @@ __author__ = 'Ian'
 #using https://gist.github.com/spro/ef26915065225df65c1187562eca7ec4
 
 import numpy as np
+import os
+import matplotlib.pyplot as plt
+import pandas as pd
 import torch
 import torch.autograd as autograd
 from torch.autograd import Variable
@@ -41,23 +44,19 @@ y = Y.as_matrix()
 #run and train model
 
 n_epochs = 100
-n_iters = 50
 
 model = SimpleRNN(hidden_size= 10, input_size=len(X.iloc[0:1].values[0]), output_size= len(Y.iloc[0:1].values[0]))
 criterion = nn.MSELoss()
 optimizer = optim.SGD(model.parameters(), lr=0.01)
 
+
 losses = np.zeros(n_epochs) # For plotting
-
-#print inital prediciton
-
-
 
 for epoch in range(n_epochs):
 
     tic = time.time()
 
-    for iter in range(len(x)-1):
+    for iter in range(len(x)):
         input = Variable(torch.from_numpy(x[iter]).float())
         target = Variable(torch.from_numpy(y[iter]).float())
 
@@ -85,4 +84,11 @@ for epoch in range(n_epochs):
         # outputs, hidden = model(inputs, False, 50)
         # show_plot('generated', outputs.data.view(-1), True)
 
+#Save losses to csv
+
+loss_df = pd.DataFrame({'loss':losses/len(x)})
+loss_df.to_csv(os.path.dirname(__file__) + '/milestone_work/loss.csv')
+
+#Save weights
+torch.save(model.state_dict(), os.path.dirname(__file__) + '/milestone_work/model_parmas.pth.tar')
 

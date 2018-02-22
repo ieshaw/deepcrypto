@@ -11,6 +11,10 @@ from pandas.tools.plotting import autocorrelation_plot
 
 def run_strategy(Y_pred, Returns_df):
 
+    #make negative returns 0 valued
+
+    Y_pred = Y_pred.where( Y_pred < 6e-06, 0)
+
     # normalize rows to a sum of 1
     # sum the rows of the prediction, divide by that number
 
@@ -43,31 +47,25 @@ def strat_metrics(strat_series):
 
 X,Y = data.import_data(set= 'train')
 
+Y_pred = pd.read_csv(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')) + '/csvs/y_pred.csv')
+
 coins = ['ETH', 'XRP','LTC', 'DASH', 'XMR']
 
-returns_df = X[[coin + 'return' for coin in coins]]
-returns_df.columns = coins
 
-# autocorrelation_plot(returns_df[coins[3])
-#
-# plt.show()
-# Y_ones = (Y*0) + 1
-#
-# # print(Y.sum().sum()/Y_ones.sum().sum())
-# #
-# # print('Accuracy: {}'.format(accuracy_score(Y.values, Y_ones.values)))
-#
+strat_series = (run_strategy(Y_pred= Y_pred, Returns_df= Y)).cumprod()
+
+strat_series.index = pd.to_datetime(strat_series.index, format='%Y-%m-%d %H:%M:%S')
+
+print(strat_metrics(strat_series))
+
+
 # output_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..')) + '/Baseline/plots'
 # if not os.path.exists(output_dir):
 #     os.makedirs(output_dir)
 #
 # fig_ts = plt.figure()
 #
-# strat_series = (run_strategy(Y_ones, returns_df)).cumprod()
-#
-# strat_series.index = pd.to_datetime(strat_series.index, format='%Y-%m-%d %H:%M:%S')
-#
-# print(strat_metrics(strat_series))
+
 
 ##Plotting
 # strat_series.plot(rot= 45)
