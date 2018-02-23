@@ -49,28 +49,31 @@ def strat_metrics(strat_series):
 
     risk_free = 0
 
-    metrics['sharpe'] = ( (strat_series[-1]-1) - risk_free)/(np.std(strat_series))
+    metrics['sharpe'] = ((strat_series[-1]-1) - risk_free)/(np.std(strat_series))
 
     metrics['max_drawdown'] = (1 - strat_series.div(strat_series.cummax())).max()
 
     return metrics
 
 
-# X,Y = data.import_data(set= 'train')
-X,Y = data.import_data(set= 'cross_val')
+X,Y = data.import_data(set= 'train')
 
-# Y_pred = pd.read_csv(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')) + '/csvs/y_pred.csv', index_col= 0)
-Y_pred = pd.read_csv(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')) + '/csvs/y_pred_cross_val.csv', index_col= 0)
+Y_pred = pd.read_csv(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')) + '/csvs/y_pred.csv', index_col= 0)
+
+Y_pred.columns = Y.columns
 
 coins = ['ETH', 'XRP','LTC', 'DASH', 'XMR']
 
 strat_series = (run_strategy(Y_pred= Y_pred, Returns_df= Y))
 
+strat_series.plot()
+plt.show()
+
 strat_series = strat_series.cumprod()
 
-print(strat_metrics(strat_series))
-
 strat_series.index = pd.to_datetime(strat_series.index, format='%Y-%m-%d %H:%M:%S')
+
+print(strat_metrics(strat_series))
 
 output_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..')) + '/plots'
 if not os.path.exists(output_dir):
@@ -82,7 +85,6 @@ fig_ts = plt.figure()
 strat_series.plot(rot= 45)
 plt.xlabel('Date')
 plt.ylabel('Returns')
-plt.title('Time Series of R2N2 Signal Returns')
+plt.title('Time Series of VAR Signal Returns')
 
-# fig_ts.savefig('{0}/r2n2_ts.png'.format(output_dir))
-fig_ts.savefig('{0}/r2n2_cross_val_ts.png'.format(output_dir))
+fig_ts.savefig('{0}/var_ts.png'.format(output_dir))

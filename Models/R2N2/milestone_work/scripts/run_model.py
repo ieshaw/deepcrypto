@@ -22,7 +22,8 @@ from Models.RNN.SimpleRNN import SimpleRNN
 torch.manual_seed(1)
 
 #import data
-X,Y = data.import_data(set= 'train')
+# X,Y = data.import_data(set= 'train')
+X,Y = data.import_data(set= 'cross_val')
 
 #do not plug in returns, but residuals
 #plug in residuals
@@ -71,6 +72,7 @@ y_pred = y_pred + y_ar_returns.as_matrix()
 Y_pred = pd.DataFrame(data= y_pred, index= Y.index, columns= Y.columns)
 # Y_pred = (Y_pred.shift(1)).dropna()
 
-Y_pred.to_csv(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')) + '/csvs/y_pred.csv')
+# Y_pred.to_csv(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')) + '/csvs/y_pred.csv')
+Y_pred.to_csv(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')) + '/csvs/y_pred_cross_val.csv')
 
 print('Time of evaluation: {}'.format(time.time() - tic))
