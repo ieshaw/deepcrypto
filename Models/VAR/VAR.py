@@ -21,9 +21,15 @@ predictions.drop(columns, 1, inplace=True)
 predictions=(predictions.shift(-1)).dropna() # shape = (10936, 5)
 predictions.to_csv(os.path.dirname(__file__) + '/predicted_values_VAR.csv')
 
-#drop last row of Y since the prediction and outcome are shifted
-outcome = Y.drop(['2015-09-13 20:00:00','2016-12-12 13:00:00'],0) # shape = (10936, 5)
+#find optimal order of VAR model
+results_optimal_order = VAR_model.fit(100)
+predictions_optimal = results_optimal_order.fittedvalues
+
+#columns to drop from dataframe
+predictions_optimal.drop(columns, 1, inplace=True)
+predictions_optimal=(predictions_optimal.shift(-1)).dropna()
+predictions_optimal.to_csv(os.path.dirname(__file__) + '/predicted_values_VAR_optimal.csv')
 
 print(predictions.dtypes)
 print(predictions.head())
-#print(predictions.shape)
+print(predictions_optimal.head())
