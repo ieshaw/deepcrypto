@@ -58,15 +58,16 @@ def strat_metrics(strat_series):
 
 X,Y = data.import_data(set= 'train')
 
-print(Y.head())
-
 Y_pred = pd.read_csv(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')) + '/csvs/y_pred.csv', index_col= 0)
-
-print(Y_pred.head())
 
 coins = ['ETH', 'XRP','LTC', 'DASH', 'XMR']
 
-strat_series = (run_strategy(Y_pred= Y_pred, Returns_df= Y)).cumprod()
+strat_series = (run_strategy(Y_pred= Y_pred, Returns_df= Y))
+
+strat_series.plot()
+plt.show()
+
+strat_series = strat_series.cumprod()
 
 strat_series.index = pd.to_datetime(strat_series.index, format='%Y-%m-%d %H:%M:%S')
 
