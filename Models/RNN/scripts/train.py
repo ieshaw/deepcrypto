@@ -2,21 +2,18 @@ __author__ = 'Ian'
 
 #using https://gist.github.com/spro/ef26915065225df65c1187562eca7ec4
 
-import numpy as np
 import os
-import pandas as pd
 import time
+
+import numpy as np
+import pandas as pd
 import torch
-import torch.autograd as autograd
-from torch.autograd import Variable
 import torch.nn as nn
-import torch.nn.functional as F
 import torch.optim as optim
-import math, random
+from torch.autograd import Variable
 
 from Data.scripts.data import data
-from Models.RNN.SimpleRNN import SimpleRNN
-
+from Models.RNN.scripts.SimpleRNN import SimpleRNN
 
 torch.manual_seed(1)
 
