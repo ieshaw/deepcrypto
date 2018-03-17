@@ -66,11 +66,11 @@ for epoch in range(n_epochs):
         print(epoch, loss.data[0])
         print('Time of epoch: {}'.format(time.time() - tic))
 
-    if epoch + 1 % 100:
+    if epoch + 1 % 100 == 0:
 
         # Save losses to csv
 
-        model_name = '{}_{}_{}_{}'.format(optim_string, hidden_size, learning, epoch + 1)
+        model_name = '{}_{}_{}'.format(optim_string, hidden_size, epoch + 1)
 
         loss_df = pd.DataFrame({'loss': losses[:epoch] / len(x)})
         loss_df.to_csv(

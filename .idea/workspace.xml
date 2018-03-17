@@ -2,35 +2,330 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdc510df-b12c-4d60-aa7a-0efe9971852c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Models/Evaluation/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Models/Perfect/csvs/cross_val_y.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Models/Perfect/csvs/test_y.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Models/R2N2/scripts/collect_loss.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Models/R2N2/scripts/model_comparison.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Models/R2N2/scripts/train_aws.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Models/R2N2/scripts/train_not_cuda.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Models/RNN/AWS/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Models/RNN/AWS/scripts/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Models/RNN/AWS/scripts/collect_loss.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Models/RNN/AWS/scripts/evaluate_models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Models/RNN/AWS/scripts/train_aws.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Models/RNN/AWS/scripts/train_not_cuda.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Models/RNN/Local/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Models/RNN/Local/scripts/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Models/RNN/Local/scripts/train.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/csvs/all_normal.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/csvs/all_raw.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/csvs/original_csv/BTC-DASH.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/csvs/original_csv/BTC-ETH.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/csvs/original_csv/BTC-LTC.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/csvs/original_csv/BTC-XMR.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/csvs/original_csv/BTC-XRP.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/milestone_work/scripts/scratch.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data/csvs/y.csv" afterPath="$PROJECT_DIR$/Models/Perfect/csvs/train_y.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Models/RNN/scripts/LayerRNN.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_1.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_10.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_101.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_102.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_103.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_104.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_105.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_106.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_107.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_108.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_11.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_12.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_13.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_14.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_15.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_16.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_17.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_18.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_19.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_2.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_20.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_21.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_22.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_23.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_24.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_25.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_26.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_27.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_28.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_29.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_3.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_30.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_31.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_32.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_33.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_34.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_35.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_36.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_37.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_38.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_39.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_4.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_40.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_41.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_42.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_43.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_44.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_45.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_46.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_47.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_48.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_49.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_5.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_50.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_51.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_52.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_53.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_54.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_55.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_56.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_57.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_58.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_59.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_6.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_60.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_61.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_62.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_63.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_64.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_65.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_66.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_67.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_68.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_69.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_7.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_70.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_71.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_72.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_73.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_74.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_75.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_76.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_77.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_78.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_79.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_8.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_80.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_81.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_82.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_83.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_84.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_85.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_86.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_87.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_88.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_89.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_9.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_90.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_91.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_92.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_93.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_94.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_95.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_96.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_97.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_98.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_99.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_1.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_10.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_101.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_102.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_103.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_104.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_105.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_106.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_107.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_108.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_11.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_12.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_13.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_14.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_15.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_16.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_17.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_18.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_19.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_2.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_20.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_21.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_22.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_23.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_24.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_25.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_26.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_27.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_28.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_29.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_3.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_30.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_31.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_32.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_33.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_34.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_35.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_36.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_37.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_38.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_39.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_4.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_40.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_41.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_42.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_43.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_44.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_45.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_46.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_47.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_48.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_49.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_5.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_50.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_51.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_52.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_53.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_54.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_55.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_56.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_57.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_58.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_59.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_6.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_60.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_61.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_62.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_63.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_64.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_65.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_66.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_67.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_68.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_69.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_7.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_70.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_71.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_72.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_73.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_74.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_75.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_76.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_77.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_78.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_79.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_8.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_80.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_81.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_82.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_83.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_84.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_85.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_86.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_87.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_88.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_89.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_9.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_90.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_91.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_92.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_93.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_94.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_95.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_96.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_97.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_98.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_99.pth.tar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_10.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_101.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_102.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_103.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_104.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_105.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_106.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_107.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_108.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_11.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_12.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_13.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_14.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_15.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_16.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_17.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_18.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_19.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_20.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_21.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_22.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_23.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_24.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_25.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_26.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_27.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_28.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_29.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_30.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_31.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_32.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_33.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_34.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_35.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_36.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_37.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_38.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_39.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_40.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_41.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_42.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_43.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_44.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_45.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_46.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_47.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_48.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_49.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_50.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_51.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_52.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_53.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_54.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_55.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_56.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_57.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_58.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_59.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_60.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_61.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_62.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_63.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_64.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_65.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_66.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_67.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_68.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_69.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_70.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_71.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_72.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_73.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_74.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_75.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_76.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_77.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_78.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_79.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_80.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_81.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_82.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_83.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_84.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_85.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_86.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_87.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_88.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_89.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_9.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_90.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_91.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_92.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_93.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_94.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_95.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_96.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_97.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_98.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_99.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Models/Evaluation/eval.py" afterPath="$PROJECT_DIR$/Models/Evaluation/eval.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Models/Evaluation/evaluate_models.py" afterPath="$PROJECT_DIR$/Models/Evaluation/evaluate_models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Models/RNN/scripts/train.py" afterPath="$PROJECT_DIR$/Models/RNN/scripts/train.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Models/RNN/Local/scripts/train.py" afterPath="$PROJECT_DIR$/Models/RNN/Local/scripts/train.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -84,8 +379,18 @@
       <file leaf-file-name="train.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Models/RNN/Local/scripts/train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="49" column="30" lean-forward="true" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+            <state relative-caret-position="610">
+              <caret line="72" column="65" lean-forward="false" selection-start-line="72" selection-start-column="65" selection-end-line="72" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LayerRNN.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Models/RNN/scripts/LayerRNN.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -108,7 +413,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Data/scripts/data.py" />
         <option value="$PROJECT_DIR$/Models/example.py" />
         <option value="$PROJECT_DIR$/Models/RNN/utility.py" />
         <option value="$PROJECT_DIR$/Models/RNN/rnn.ipynb" />
@@ -159,6 +463,7 @@
         <option value="$PROJECT_DIR$/Models/RNN/scripts/collect_loss.py" />
         <option value="$PROJECT_DIR$/Models/R2N2/scripts/collect_loss.py" />
         <option value="$PROJECT_DIR$/Models/RNN/Local/scripts/train.py" />
+        <option value="$PROJECT_DIR$/Models/RNN/scripts/LayerRNN.py" />
       </list>
     </option>
   </component>
@@ -213,68 +518,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deepcrypto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deepcrypto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RNN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deepcrypto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deepcrypto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RNN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deepcrypto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deepcrypto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RNN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Local" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -684,7 +927,7 @@
     <frame x="1278" y="23" width="1280" height="997" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2253635" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2253635" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -755,11 +998,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Models/RNN/milestone_work/plots/class_rnn_ts.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Models/RNN/milestone_work/plots/rnn_ts.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -924,13 +1162,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Models/RNN/scripts/SimpleRNN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Models/RNN/milestone_work/scripts/evaluate_model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -1080,10 +1311,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Models/RNN/scripts/SimpleRNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/RNN/scripts/LayerRNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Models/RNN/Local/scripts/train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="49" column="30" lean-forward="true" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+        <state relative-caret-position="610">
+          <caret line="72" column="65" lean-forward="false" selection-start-line="72" selection-start-column="65" selection-end-line="72" selection-end-column="65" />
           <folding />
         </state>
       </provider>
