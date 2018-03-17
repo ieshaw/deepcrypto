@@ -1,332 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdc510df-b12c-4d60-aa7a-0efe9971852c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Models/RNN/scripts/LayerRNN.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_1.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_10.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_101.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_102.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_103.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_104.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_105.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_106.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_107.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_108.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_11.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_12.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_13.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_14.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_15.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_16.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_17.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_18.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_19.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_2.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_20.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_21.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_22.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_23.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_24.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_25.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_26.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_27.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_28.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_29.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_3.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_30.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_31.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_32.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_33.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_34.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_35.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_36.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_37.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_38.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_39.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_4.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_40.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_41.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_42.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_43.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_44.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_45.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_46.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_47.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_48.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_49.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_5.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_50.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_51.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_52.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_53.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_54.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_55.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_56.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_57.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_58.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_59.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_6.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_60.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_61.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_62.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_63.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_64.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_65.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_66.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_67.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_68.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_69.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_7.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_70.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_71.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_72.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_73.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_74.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_75.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_76.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_77.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_78.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_79.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_8.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_80.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_81.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_82.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_83.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_84.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_85.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_86.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_87.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_88.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_89.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_9.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_90.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_91.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_92.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_93.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_94.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_95.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_96.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_97.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_98.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/loss_csvs/SGD_10_100_99.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_1.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_10.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_101.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_102.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_103.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_104.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_105.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_106.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_107.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_108.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_11.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_12.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_13.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_14.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_15.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_16.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_17.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_18.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_19.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_2.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_20.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_21.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_22.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_23.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_24.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_25.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_26.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_27.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_28.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_29.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_3.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_30.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_31.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_32.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_33.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_34.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_35.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_36.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_37.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_38.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_39.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_4.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_40.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_41.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_42.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_43.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_44.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_45.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_46.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_47.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_48.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_49.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_5.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_50.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_51.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_52.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_53.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_54.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_55.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_56.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_57.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_58.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_59.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_6.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_60.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_61.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_62.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_63.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_64.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_65.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_66.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_67.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_68.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_69.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_7.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_70.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_71.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_72.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_73.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_74.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_75.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_76.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_77.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_78.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_79.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_8.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_80.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_81.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_82.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_83.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_84.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_85.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_86.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_87.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_88.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_89.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_9.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_90.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_91.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_92.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_93.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_94.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_95.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_96.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_97.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_98.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/model_params/SGD_10_100_99.pth.tar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_10.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_101.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_102.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_103.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_104.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_105.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_106.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_107.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_108.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_11.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_12.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_13.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_14.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_15.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_16.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_17.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_18.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_19.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_20.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_21.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_22.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_23.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_24.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_25.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_26.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_27.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_28.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_29.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_30.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_31.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_32.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_33.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_34.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_35.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_36.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_37.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_38.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_39.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_4.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_40.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_41.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_42.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_43.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_44.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_45.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_46.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_47.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_48.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_49.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_5.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_50.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_51.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_52.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_53.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_54.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_55.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_56.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_57.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_58.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_59.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_6.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_60.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_61.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_62.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_63.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_64.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_65.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_66.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_67.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_68.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_69.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_7.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_70.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_71.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_72.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_73.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_74.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_75.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_76.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_77.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_78.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_79.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_8.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_80.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_81.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_82.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_83.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_84.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_85.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_86.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_87.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_88.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_89.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_9.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_90.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_91.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_92.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_93.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_94.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_95.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_96.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_97.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_98.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Models/RNN/Local/records/SGD_10_100_99.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Models/RNN/Local/scripts/train.py" afterPath="$PROJECT_DIR$/Models/RNN/Local/scripts/train.py" />
-    </list>
+    <list default="true" id="fdc510df-b12c-4d60-aa7a-0efe9971852c" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -335,62 +10,63 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/deepcrypto$plot_loss.coverage" NAME="plot_loss Coverage Results" MODIFIED="1519338135006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/R2N2/milestone_work/scripts" />
     <SUITE FILE_PATH="coverage/deepcrypto$darnn.coverage" NAME="darnn Coverage Results" MODIFIED="1518312766495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/RNN" />
-    <SUITE FILE_PATH="coverage/deepcrypto$run_model.coverage" NAME="run_model Coverage Results" MODIFIED="1519352800534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/R2N2/milestone_work/scripts" />
-    <SUITE FILE_PATH="coverage/deepcrypto$make_y_pred_ones.coverage" NAME="make_y_pred_ones Coverage Results" MODIFIED="1519354555044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/Baseline/scripts" />
-    <SUITE FILE_PATH="coverage/deepcrypto$scratch__2_.coverage" NAME="scratch (2) Coverage Results" MODIFIED="1520709248733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/RNN/scripts" />
-    <SUITE FILE_PATH="coverage/deepcrypto$train__1_.coverage" NAME="train (1) Coverage Results" MODIFIED="1519337227181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/R2N2" />
-    <SUITE FILE_PATH="coverage/deepcrypto$all_csv_to_one.coverage" NAME="all_csv_to_one Coverage Results" MODIFIED="1517971683254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data" />
-    <SUITE FILE_PATH="coverage/deepcrypto$scratch_hyperparameters.coverage" NAME="scratch_hyperparameters Coverage Results" MODIFIED="1520626098708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/R2N2/scripts" />
-    <SUITE FILE_PATH="coverage/deepcrypto$evaluate_strategy.coverage" NAME="evaluate_strategy Coverage Results" MODIFIED="1519182740543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/Baseline" />
-    <SUITE FILE_PATH="coverage/deepcrypto$collect_loss.coverage" NAME="collect_loss Coverage Results" MODIFIED="1521240951736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/R2N2/scripts" />
-    <SUITE FILE_PATH="coverage/deepcrypto$evaluate_model__2_.coverage" NAME="evaluate_model (2) Coverage Results" MODIFIED="1519352543019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/VAR/milestone_work/scripts" />
-    <SUITE FILE_PATH="coverage/deepcrypto$train_not_cuda.coverage" NAME="train_not_cuda Coverage Results" MODIFIED="1520719140952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/R2N2/scripts" />
     <SUITE FILE_PATH="coverage/deepcrypto$evaluate_accuracy__3_.coverage" NAME="evaluate_accuracy (3) Coverage Results" MODIFIED="1519355004848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/Baseline/scripts" />
-    <SUITE FILE_PATH="coverage/deepcrypto$data_load_example.coverage" NAME="data_load_example Coverage Results" MODIFIED="1519322593496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models" />
-    <SUITE FILE_PATH="coverage/deepcrypto$time_series_plots.coverage" NAME="time_series_plots Coverage Results" MODIFIED="1519180650728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/Baseline" />
-    <SUITE FILE_PATH="coverage/deepcrypto$find_lowest_loss.coverage" NAME="find_lowest_loss Coverage Results" MODIFIED="1521240800006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/RNN/scripts" />
-    <SUITE FILE_PATH="coverage/deepcrypto$split_data.coverage" NAME="split_data Coverage Results" MODIFIED="1519322584902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data/scripts" />
-    <SUITE FILE_PATH="coverage/deepcrypto$evaluate_accuracy__1_.coverage" NAME="evaluate_accuracy (1) Coverage Results" MODIFIED="1519354200345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/RNN/milestone_work/scripts" />
-    <SUITE FILE_PATH="coverage/deepcrypto$train.coverage" NAME="train Coverage Results" MODIFIED="1521244076147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/RNN/Local/scripts" />
-    <SUITE FILE_PATH="coverage/deepcrypto$practicing_Ar.coverage" NAME="practicing_Ar Coverage Results" MODIFIED="1519337612869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/R2N2" />
-    <SUITE FILE_PATH="coverage/deepcrypto$evaluate_models.coverage" NAME="evaluate_models Coverage Results" MODIFIED="1520714566622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/Evaluation" />
-    <SUITE FILE_PATH="coverage/deepcrypto$evaluate_model__1_.coverage" NAME="evaluate_model (1) Coverage Results" MODIFIED="1519352917016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/R2N2/milestone_work/scripts" />
-    <SUITE FILE_PATH="coverage/deepcrypto$evaluate_models__1_.coverage" NAME="evaluate_models (1) Coverage Results" MODIFIED="1520718975979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/RNN/scripts" />
-    <SUITE FILE_PATH="coverage/deepcrypto$test_rnn.coverage" NAME="test_rnn Coverage Results" MODIFIED="1518320927401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/RNN" />
-    <SUITE FILE_PATH="coverage/deepcrypto$Python_Console.coverage" NAME="Python Console Coverage Results" MODIFIED="1521236541230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/deepcrypto$scratch__1_.coverage" NAME="scratch (1) Coverage Results" MODIFIED="1520707091536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/Evaluation" />
-    <SUITE FILE_PATH="coverage/deepcrypto$eval.coverage" NAME="eval Coverage Results" MODIFIED="1519853375820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/Evaluation" />
-    <SUITE FILE_PATH="coverage/deepcrypto$rnn.coverage" NAME="rnn Coverage Results" MODIFIED="1519323077568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/RNN" />
-    <SUITE FILE_PATH="coverage/deepcrypto$evaluate_model.coverage" NAME="evaluate_model Coverage Results" MODIFIED="1519849873981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/RNN/milestone_work/scripts" />
-    <SUITE FILE_PATH="coverage/deepcrypto$evaluate_accuracy__2_.coverage" NAME="evaluate_accuracy (2) Coverage Results" MODIFIED="1519851937419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/R2N2/milestone_work/scripts" />
-    <SUITE FILE_PATH="coverage/deepcrypto$raw_to_normalized.coverage" NAME="raw_to_normalized Coverage Results" MODIFIED="1517971833382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data/scripts" />
-    <SUITE FILE_PATH="coverage/deepcrypto$all_to_y.coverage" NAME="all_to_y Coverage Results" MODIFIED="1519322549322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data/scripts" />
+    <SUITE FILE_PATH="coverage/deepcrypto$evaluate_accuracy__1_.coverage" NAME="evaluate_accuracy (1) Coverage Results" MODIFIED="1519354200345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/RNN/milestone_work/scripts" />
     <SUITE FILE_PATH="coverage/deepcrypto$evaluate_accuracy.coverage" NAME="evaluate_accuracy Coverage Results" MODIFIED="1519355198318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/VAR/milestone_work/scripts" />
+    <SUITE FILE_PATH="coverage/deepcrypto$evaluate_model__2_.coverage" NAME="evaluate_model (2) Coverage Results" MODIFIED="1519352543019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/VAR/milestone_work/scripts" />
+    <SUITE FILE_PATH="coverage/deepcrypto$data_load_example.coverage" NAME="data_load_example Coverage Results" MODIFIED="1519322593496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models" />
+    <SUITE FILE_PATH="coverage/deepcrypto$VAR.coverage" NAME="VAR Coverage Results" MODIFIED="1521248349523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/VAR" />
+    <SUITE FILE_PATH="coverage/deepcrypto$Python_Console.coverage" NAME="Python Console Coverage Results" MODIFIED="1521236541230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/deepcrypto$run_model.coverage" NAME="run_model Coverage Results" MODIFIED="1519352800534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/R2N2/milestone_work/scripts" />
+    <SUITE FILE_PATH="coverage/deepcrypto$evaluate_model__1_.coverage" NAME="evaluate_model (1) Coverage Results" MODIFIED="1519352917016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/R2N2/milestone_work/scripts" />
+    <SUITE FILE_PATH="coverage/deepcrypto$scratch_hyperparameters.coverage" NAME="scratch_hyperparameters Coverage Results" MODIFIED="1520626098708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/R2N2/scripts" />
+    <SUITE FILE_PATH="coverage/deepcrypto$test_rnn.coverage" NAME="test_rnn Coverage Results" MODIFIED="1518320927401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/RNN" />
+    <SUITE FILE_PATH="coverage/deepcrypto$train__1_.coverage" NAME="train (1) Coverage Results" MODIFIED="1519337227181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/R2N2" />
+    <SUITE FILE_PATH="coverage/deepcrypto$raw_to_normalized.coverage" NAME="raw_to_normalized Coverage Results" MODIFIED="1517971833382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data/scripts" />
+    <SUITE FILE_PATH="coverage/deepcrypto$collect_loss.coverage" NAME="collect_loss Coverage Results" MODIFIED="1521240951736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/R2N2/scripts" />
+    <SUITE FILE_PATH="coverage/deepcrypto$scratch__2_.coverage" NAME="scratch (2) Coverage Results" MODIFIED="1520709248733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/RNN/scripts" />
+    <SUITE FILE_PATH="coverage/deepcrypto$evaluate_accuracy__2_.coverage" NAME="evaluate_accuracy (2) Coverage Results" MODIFIED="1519851937419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/R2N2/milestone_work/scripts" />
+    <SUITE FILE_PATH="coverage/deepcrypto$split_data.coverage" NAME="split_data Coverage Results" MODIFIED="1519322584902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data/scripts" />
+    <SUITE FILE_PATH="coverage/deepcrypto$all_to_y.coverage" NAME="all_to_y Coverage Results" MODIFIED="1519322549322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data/scripts" />
+    <SUITE FILE_PATH="coverage/deepcrypto$find_lowest_loss.coverage" NAME="find_lowest_loss Coverage Results" MODIFIED="1521240800006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/RNN/scripts" />
+    <SUITE FILE_PATH="coverage/deepcrypto$all_csv_to_one.coverage" NAME="all_csv_to_one Coverage Results" MODIFIED="1517971683254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data" />
+    <SUITE FILE_PATH="coverage/deepcrypto$train.coverage" NAME="train Coverage Results" MODIFIED="1521246380351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/RNN/Local/scripts" />
+    <SUITE FILE_PATH="coverage/deepcrypto$plot_loss.coverage" NAME="plot_loss Coverage Results" MODIFIED="1519338135006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/R2N2/milestone_work/scripts" />
+    <SUITE FILE_PATH="coverage/deepcrypto$time_series_plots.coverage" NAME="time_series_plots Coverage Results" MODIFIED="1519180650728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/Baseline" />
+    <SUITE FILE_PATH="coverage/deepcrypto$rnn.coverage" NAME="rnn Coverage Results" MODIFIED="1519323077568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/RNN" />
+    <SUITE FILE_PATH="coverage/deepcrypto$evaluate_models.coverage" NAME="evaluate_models Coverage Results" MODIFIED="1520714566622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/Evaluation" />
     <SUITE FILE_PATH="coverage/deepcrypto$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1519853378382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/RNN" />
+    <SUITE FILE_PATH="coverage/deepcrypto$evaluate_model.coverage" NAME="evaluate_model Coverage Results" MODIFIED="1519849873981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/RNN/milestone_work/scripts" />
+    <SUITE FILE_PATH="coverage/deepcrypto$evaluate_models__1_.coverage" NAME="evaluate_models (1) Coverage Results" MODIFIED="1520718975979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/RNN/scripts" />
+    <SUITE FILE_PATH="coverage/deepcrypto$eval.coverage" NAME="eval Coverage Results" MODIFIED="1519853375820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/Evaluation" />
+    <SUITE FILE_PATH="coverage/deepcrypto$practicing_Ar.coverage" NAME="practicing_Ar Coverage Results" MODIFIED="1519337612869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/R2N2" />
+    <SUITE FILE_PATH="coverage/deepcrypto$make_y_pred_ones.coverage" NAME="make_y_pred_ones Coverage Results" MODIFIED="1519354555044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/Baseline/scripts" />
+    <SUITE FILE_PATH="coverage/deepcrypto$evaluate_strategy.coverage" NAME="evaluate_strategy Coverage Results" MODIFIED="1519182740543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/Baseline" />
+    <SUITE FILE_PATH="coverage/deepcrypto$train_not_cuda.coverage" NAME="train_not_cuda Coverage Results" MODIFIED="1520719140952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/R2N2/scripts" />
+    <SUITE FILE_PATH="coverage/deepcrypto$VARMAX.coverage" NAME="VARMAX Coverage Results" MODIFIED="1521252504137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/VARMAX" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="train.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Models/RNN/Local/scripts/train.py">
+      <file leaf-file-name="VAR.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Models/VAR/VAR.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="610">
-              <caret line="72" column="65" lean-forward="false" selection-start-line="72" selection-start-column="65" selection-end-line="72" selection-end-column="65" />
+            <state relative-caret-position="135">
+              <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LayerRNN.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Models/RNN/scripts/LayerRNN.py">
+      <file leaf-file-name="VARMAX.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Models/VARMAX/VARMAX.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+            <state relative-caret-position="278">
+              <caret line="35" column="27" lean-forward="true" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -413,7 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Models/example.py" />
         <option value="$PROJECT_DIR$/Models/RNN/utility.py" />
         <option value="$PROJECT_DIR$/Models/RNN/rnn.ipynb" />
         <option value="$PROJECT_DIR$/Models/RNN/darnn.py" />
@@ -464,6 +139,7 @@
         <option value="$PROJECT_DIR$/Models/R2N2/scripts/collect_loss.py" />
         <option value="$PROJECT_DIR$/Models/RNN/Local/scripts/train.py" />
         <option value="$PROJECT_DIR$/Models/RNN/scripts/LayerRNN.py" />
+        <option value="$PROJECT_DIR$/Models/VARMAX/VARMAX.py" />
       </list>
     </option>
   </component>
@@ -473,11 +149,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1278" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="498" />
     <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="997" />
+    <option name="width" value="1378" />
+    <option name="height" value="797" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -494,83 +170,49 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deepcrypto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deepcrypto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deepcrypto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deepcrypto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deepcrypto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deepcrypto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="R2N2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deepcrypto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deepcrypto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="R2N2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="deepcrypto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deepcrypto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deepcrypto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deepcrypto" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deepcrypto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deepcrypto" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deepcrypto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deepcrypto" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+              <item name="R2N2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deepcrypto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deepcrypto" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+              <item name="R2N2" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -588,62 +230,58 @@
       <recent name="$PROJECT_DIR$/Models/RNN/milestone_work/scripts" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.train">
-    <configuration default="false" name="train_not_cuda" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.VARMAX">
+    <configuration name="VAR" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Models/R2N2/scripts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Models/VAR" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="deepcrypto" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Models/R2N2/scripts/train_not_cuda.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Models/VAR/VAR.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration default="false" name="find_lowest_loss" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="VARMAX" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Models/RNN/scripts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Models/VARMAX" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="deepcrypto" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Models/RNN/AWS/scripts/collect_loss.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Models/VARMAX/VARMAX.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration default="false" name="Python Console" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="deepcrypto" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="/Python Console" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="collect_loss" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="collect_loss" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -659,9 +297,29 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Models/R2N2/scripts/collect_loss.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration default="false" name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="find_lowest_loss" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Models/RNN/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="deepcrypto" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Models/RNN/AWS/scripts/collect_loss.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -677,7 +335,8 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Models/RNN/Local/scripts/train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -765,15 +424,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <module name="deepcrypto" />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -893,25 +543,36 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.train_not_cuda" />
-      <item index="1" class="java.lang.String" itemvalue="Python.find_lowest_loss" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Python Console" />
-      <item index="3" class="java.lang.String" itemvalue="Python.collect_loss" />
-      <item index="4" class="java.lang.String" itemvalue="Python.train" />
+      <item index="0" class="java.lang.String" itemvalue="Python.find_lowest_loss" />
+      <item index="1" class="java.lang.String" itemvalue="Python.collect_loss" />
+      <item index="2" class="java.lang.String" itemvalue="Python.train" />
+      <item index="3" class="java.lang.String" itemvalue="Python.VAR" />
+      <item index="4" class="java.lang.String" itemvalue="Python.VARMAX" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.train" />
-        <item index="1" class="java.lang.String" itemvalue="Python.collect_loss" />
-        <item index="2" class="java.lang.String" itemvalue="Python.find_lowest_loss" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Python Console" />
-        <item index="4" class="java.lang.String" itemvalue="Python.train_not_cuda" />
+        <item index="0" class="java.lang.String" itemvalue="Python.VARMAX" />
+        <item index="1" class="java.lang.String" itemvalue="Python.VAR" />
+        <item index="2" class="java.lang.String" itemvalue="Python.train" />
+        <item index="3" class="java.lang.String" itemvalue="Python.collect_loss" />
+        <item index="4" class="java.lang.String" itemvalue="Python.find_lowest_loss" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -924,20 +585,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1278" y="23" width="1280" height="997" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="23" width="1440" height="797" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2253635" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3843888" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3529887" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23435722" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35264665" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32695138" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20314735" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39925373" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -969,7 +632,7 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -998,187 +661,52 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Models/RNN/milestone_work/plots/rnn_ts.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/RNN/milestone_work/plots/rnn_loss.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/RNN/milestone_work/plots/class_rnn_loss.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/R2N2/milestone_work/scripts/evaluate_accuracy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="54" column="56" lean-forward="false" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/RNN/milestone_work/scripts/plot_loss.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/Baseline/plots/ts_Baseline_.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/R2N2/milestone_work/scripts/evaluate_accuracy.py" />
+    <entry file="file://$PROJECT_DIR$/Models/RNN/milestone_work/scripts/plot_loss.py" />
+    <entry file="file://$PROJECT_DIR$/Models/Baseline/plots/ts_Baseline_.png" />
     <entry file="file://$PROJECT_DIR$/Models/R2N2/scripts.py" />
     <entry file="file://$PROJECT_DIR$/Models/RNN/milestone_work/scripts/scratch.py" />
-    <entry file="file://$PROJECT_DIR$/Models/Evaluation/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/Baseline/plots/baseline_ts.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/Perfect/csvs/train_y.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/Perfect/csvs/cross_val_y.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/Perfect/csvs/test_y.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/Perfect/plots/ts_Perfect_train.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/VAR/VAR.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/scripts/split_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="30" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/scripts/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="14" column="51" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/Perfect/plots/ts_Perfect_test.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/RNN/AWS/records/hs_10.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/Evaluation/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/Models/Baseline/plots/baseline_ts.png" />
+    <entry file="file://$PROJECT_DIR$/Models/Perfect/csvs/train_y.csv" />
+    <entry file="file://$PROJECT_DIR$/Models/Perfect/csvs/cross_val_y.csv" />
+    <entry file="file://$PROJECT_DIR$/Models/Perfect/csvs/test_y.csv" />
+    <entry file="file://$PROJECT_DIR$/Models/Perfect/plots/ts_Perfect_train.png" />
+    <entry file="file://$PROJECT_DIR$/Data/scripts/split_data.py" />
+    <entry file="file://$PROJECT_DIR$/Data/scripts/data.py" />
+    <entry file="file://$PROJECT_DIR$/Models/Perfect/plots/ts_Perfect_test.png" />
+    <entry file="file://$PROJECT_DIR$/Models/RNN/AWS/records/hs_10.txt" />
     <entry file="file://$PROJECT_DIR$/Models/R2N2/scripts/scratch_hyperparameters.py" />
-    <entry file="file://$PROJECT_DIR$/Models/R2N2/scripts/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/Perfect/plots/ts_Perfect_cross_val.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/R2N2/scripts/train_aws.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="70" column="8" lean-forward="false" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/Perfect/plots/ts_Perfect_cross_val.png" />
+    <entry file="file://$PROJECT_DIR$/Models/R2N2/scripts/train_aws.py" />
     <entry file="file://$PROJECT_DIR$/Models/Evaluation/scratch.py" />
     <entry file="file://$PROJECT_DIR$/Models/RNN/scripts/scratch.py" />
-    <entry file="file://$PROJECT_DIR$/Models/RNN/AWS/records/SGD_9_43_100.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/Evaluation/evaluate_models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/Evaluation/eval.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-163">
-          <caret line="109" column="35" lean-forward="false" selection-start-line="109" selection-start-column="35" selection-end-line="109" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/R2N2/scripts/train_not_cuda.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="50" column="19" lean-forward="true" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/RNN/model_compare/model_compare.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="52" column="78" lean-forward="false" selection-start-line="52" selection-start-column="78" selection-end-line="52" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/RNN/milestone_work/scripts/evaluate_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/RNN/milestone_work/scripts/run_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/RNN/AWS/records/Adam_9_76_100.txt">
+    <entry file="file://$PROJECT_DIR$/Models/RNN/AWS/records/SGD_9_43_100.txt" />
+    <entry file="file://$PROJECT_DIR$/Models/Evaluation/evaluate_models.py" />
+    <entry file="file://$PROJECT_DIR$/Models/Evaluation/eval.py" />
+    <entry file="file://$PROJECT_DIR$/Models/R2N2/scripts/train_not_cuda.py" />
+    <entry file="file://$PROJECT_DIR$/Models/RNN/model_compare/model_compare.csv" />
+    <entry file="file://$PROJECT_DIR$/Models/RNN/milestone_work/scripts/evaluate_model.py" />
+    <entry file="file://$PROJECT_DIR$/Models/RNN/milestone_work/scripts/run_model.py" />
+    <entry file="file://$PROJECT_DIR$/Models/RNN/AWS/records/Adam_9_76_100.txt" />
+    <entry file="file://$PROJECT_DIR$/Models/RNN/AWS/scripts/train_not_cuda.py" />
+    <entry file="file://$PROJECT_DIR$/Models/RNN/AWS/loss_csvs/Adam_12_93_100.csv" />
+    <entry file="file://$PROJECT_DIR$/Models/RNN/loss_csvs/loss_10.csv" />
+    <entry file="file://$PROJECT_DIR$/Models/RNN/loss_csvs/model_parmas_10.csv" />
+    <entry file="file://$PROJECT_DIR$/Models/RNN/AWS/scripts/train_aws.py" />
+    <entry file="file://$PROJECT_DIR$/Models/R2N2/scripts/model_comparison.ipynb" />
+    <entry file="file://$PROJECT_DIR$/Models/RNN/AWS/loss_csvs/SGD_38_47_100.csv" />
+    <entry file="file://$PROJECT_DIR$/Models/RNN/AWS/loss_csvs/SGD_35_20_100.csv" />
+    <entry file="file://$PROJECT_DIR$/Models/RNN/AWS/scripts/evaluate_models.py" />
+    <entry file="file://$PROJECT_DIR$/Models/R2N2/scripts/collect_loss.py" />
+    <entry file="file://$PROJECT_DIR$/Models/RNN/AWS/scripts/collect_loss.py" />
+    <entry file="file://$PROJECT_DIR$/Models/RNN/scripts/train.py" />
+    <entry file="file://$PROJECT_DIR$/Models/RNN/Local/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/Models/RNN/Local/scripts/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/Models/RNN/scripts/SimpleRNN.py" />
+    <entry file="file://$PROJECT_DIR$/Models/RNN/scripts/LayerRNN.py" />
+    <entry file="file://$PROJECT_DIR$/Models/RNN/Local/scripts/train.py" />
+    <entry file="file://$PROJECT_DIR$/Models/VAR/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1186,15 +714,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Models/RNN/AWS/scripts/train_not_cuda.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="46" column="70" lean-forward="false" selection-start-line="46" selection-start-column="70" selection-end-line="46" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/RNN/AWS/loss_csvs/Adam_12_93_100.csv">
+    <entry file="file://$PROJECT_DIR$/Data/csvs/train/y.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1210,92 +730,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Models/RNN/loss_csvs/loss_10.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-452">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/RNN/loss_csvs/model_parmas_10.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-452">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/RNN/AWS/scripts/train_aws.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="100" column="4" lean-forward="false" selection-start-line="100" selection-start-column="4" selection-end-line="101" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/R2N2/scripts/model_comparison.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="-1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/RNN/AWS/loss_csvs/SGD_38_47_100.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-410">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/RNN/AWS/loss_csvs/SGD_35_20_100.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-410">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/RNN/AWS/scripts/evaluate_models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="62" column="4" lean-forward="false" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="35" />
-          <folding>
-            <element signature="e#349#1022#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/R2N2/scripts/collect_loss.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-          <folding>
-            <element signature="e#21#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/RNN/AWS/scripts/collect_loss.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="27" selection-end-column="14" />
-          <folding>
-            <element signature="e#21#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/RNN/scripts/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/RNN/Local/__init__.py">
+    <entry file="file://$PROJECT_DIR$/Models/R2N2/scripts/train.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1303,34 +738,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Models/RNN/Local/scripts/__init__.py">
+    <entry file="file://$PROJECT_DIR$/Models/VAR/VAR.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="135">
+          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Models/RNN/scripts/SimpleRNN.py">
+    <entry file="file://$PROJECT_DIR$/Models/VARMAX/VARMAX.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/RNN/scripts/LayerRNN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/RNN/Local/scripts/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="72" column="65" lean-forward="false" selection-start-line="72" selection-start-column="65" selection-end-line="72" selection-end-column="65" />
+        <state relative-caret-position="278">
+          <caret line="35" column="27" lean-forward="true" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
           <folding />
         </state>
       </provider>
