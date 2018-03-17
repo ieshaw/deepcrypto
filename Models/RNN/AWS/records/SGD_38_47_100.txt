@@ -1,0 +1,7 @@
+Simple RNN 
+SGD_38_47_100 
+Num_Epochs = 100
+Hidden_Size = 38
+Optimizer = SGD
+Learning Rate = 0.47000000000000003
+Time spent = 3359.3953733444214

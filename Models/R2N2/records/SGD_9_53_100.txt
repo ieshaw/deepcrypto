@@ -1,0 +1,7 @@
+Simple R2N2 
+SGD_9_53_100 
+Num_Epochs = 100
+Hidden_Size = 9
+Optimizer = SGD
+Learning Rate = 0.53
+Time spent = 3378.413485765457

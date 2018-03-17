@@ -23,13 +23,21 @@ x = X.as_matrix()
 y = Y.as_matrix()
 
 #set model, loss, and optimization
-model = SimpleRNN(hidden_size= 10, input_size=len(X.iloc[0:1].values[0]), output_size= len(Y.iloc[0:1].values[0]))
+hidden_size = 10
+optim_string = 'SGD'
+model_string = 'Simple RNN'
+n_epochs = 100
+learning = 10
+lr = learning * 10e-3
+model = SimpleRNN(hidden_size= hidden_size, input_size=len(X.iloc[0:1].values[0]), output_size= len(Y.iloc[0:1].values[0]))
 criterion = nn.MSELoss()
-optimizer = optim.SGD(model.parameters(), lr=0.01)
+optimizer = optim.SGD(model.parameters(), lr= lr)
+
 
 #train model
-n_epochs = 100
 losses = np.zeros(n_epochs) # For plotting
+
+time_train = time.time()
 
 for epoch in range(n_epochs):
 
@@ -53,21 +61,24 @@ for epoch in range(n_epochs):
         print(epoch, loss.data[0])
         print('Time of epoch: {}'.format(time.time() - tic))
 
-    # Use some plotting library
-    # if epoch % 10 == 0:
-        # show_plot('inputs', _inputs, True)
-        # show_plot('outputs', outputs.data.view(-1), True)
-        # show_plot('losses', losses[:epoch] / n_iters)
-
-        # Generate a test
-        # outputs, hidden = model(inputs, False, 50)
-        # show_plot('generated', outputs.data.view(-1), True)
 
 #Save losses to csv
 
+model_name = '{}_{}_{}_{}'.format(optim_string,hidden_size,learning,n_epochs)
+
 loss_df = pd.DataFrame({'loss':losses/len(x)})
-loss_df.to_csv(os.path.dirname(__file__) + '/milestone_work/csvs/loss.csv')
+loss_df.to_csv(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')) + '/loss_csvs/{}.csv'.format(model_name))
 
 #Save weights
-torch.save(model.state_dict(), os.path.dirname(__file__) + '/milestone_work/model_parmas.pth.tar')
+torch.save(model.state_dict(), os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+           + '/model_params/{}.pth.tar'.format(model_name))
 
+filename = os.path.abspath(os.path.join(os.path.dirname(__file__), '..')) + "/records/{}.txt".format(model_name)
+with open(filename, 'w') as f:
+    f.write("{} \n".format(model_string))
+    f.write("{} \n".format(model_name))
+    f.write("Num_Epochs = {}\n".format(n_epochs))
+    f.write("Hidden_Size = {}\n".format(hidden_size))
+    f.write("Optimizer = {}\n".format(optim_string))
+    f.write("Learning Rate = {}\n".format(lr))
+    f.write("Time spent = {0}\n".format(time.time() - time_train))

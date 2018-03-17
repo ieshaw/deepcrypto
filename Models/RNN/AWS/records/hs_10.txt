@@ -1,0 +1,5 @@
+Simple RNN 
+Num_Epochs = 100
+Hidden_Size = 10
+Num_Epochs = 100
+Time spent = 870.7944040298462

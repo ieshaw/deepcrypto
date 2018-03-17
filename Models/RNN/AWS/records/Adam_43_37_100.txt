@@ -1,0 +1,7 @@
+Simple RNN 
+Adam_43_37_100 
+Num_Epochs = 100
+Hidden_Size = 43
+Optimizer = Adam
+Learning Rate = 0.37
+Time spent = 3771.7395808696747

@@ -38,10 +38,10 @@ def get_file_names(model = 'VAR', y_pred_csv_name= 'y_pred', plot_suffix = '', l
 
         return [y_pred_file, ts_plot_path]
 
-#model options: VAR, RNN , R2N2, Baselime
-model = 'Baseline'
-y_pred_csv_name = 'y_pred'
-plot_suffix = 'test'
+#model options: VAR, RNN , R2N2, Baselime, Perfect
+model = 'Perfect'
+y_pred_csv_name = 'train_y'
+plot_suffix = 'train'
 loss_file_name = None
 
 #set options: 'train', 'cross_val', or 'test'
@@ -50,7 +50,7 @@ set = 'train'
 file_list = get_file_names(model= model, y_pred_csv_name= y_pred_csv_name,
                            plot_suffix= plot_suffix, loss_file_name= loss_file_name)
 
-check_model = eval_model(y_pred_file= file_list[0], set= 'train')
+check_model = eval_model(y_pred_file= file_list[0], set= set)
 
 check_model.backtest(printer=True)
 

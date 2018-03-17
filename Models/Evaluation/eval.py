@@ -16,7 +16,8 @@ def run_strategy(Y_pred, Y_actual):
 
     #make negative returns 0 valued
 
-    Y_pred = Y_pred.where(Y_pred > 6e-06, 0)
+    #Y_pred = Y_pred.where(Y_pred > 6e-06, 0)
+    Y_pred = np.clip(Y_pred, a_min=0, a_max=None)
 
     # normalize rows to a sum of 1
     # sum the rows of the prediction, divide by that number
@@ -25,27 +26,31 @@ def run_strategy(Y_pred, Y_actual):
 
     #if any sum is 0, meaning no investment, turn to 1 so as to avoid divide by 0
 
-    Y_pred_sum = Y_pred_sum.where(Y_pred_sum > 1e-06, 1)
+    #Y_pred_sum = Y_pred_sum.where(Y_pred_sum > 1e-06, 1)
+    #Y_pred_sum = np.clip(Y_pred_sum, a_min= 0.01, a_max= None)
+    Y_pred_sum = Y_pred_sum.replace(to_replace=0, value=1)
 
     Y_pred = Y_pred.divide(Y_pred_sum, axis= 'index')
 
-    strat_returns_series = (Y_pred.multiply(Y_actual + 1, axis= 'index')).sum(axis=1)
+    #strat_returns_series = (Y_pred.multiply(Y_actual + 1, axis= 'index')).sum(axis=1)
+    strat_returns_series = (Y_pred.multiply(Y_actual, axis='index')).sum(axis=1)
 
     #if at any point not invested in the market, hold value
 
-    strat_returns_series = strat_returns_series.replace(to_replace = 0, value= 1)
+    #strat_returns_series = strat_returns_series.replace(to_replace = 0, value= 1)
 
-    return strat_returns_series
+    #return strat_returns_series
+    return strat_returns_series + 1
 
 def strat_metrics(strat_series):
 
     metrics = {}
 
-    metrics['return'] = strat_series[-1]
+    metrics['return'] = strat_series[-1] - 1
 
     risk_free = 0
 
-    metrics['sharpe'] = ( (strat_series[-1]-1) - risk_free)/(np.std(strat_series))
+    metrics['sharpe'] = ((strat_series[-1]-1) - risk_free)/(np.std(strat_series))
 
     metrics['max_drawdown'] = (1 - strat_series.div(strat_series.cummax())).max()
 
@@ -90,11 +95,19 @@ class eval_model:
     A class to evaluate models
     '''
 
-    def __init__(self,y_pred_file, set= 'train'):
+    # def __init__(self,y_pred_file, set= 'train'):
+    #
+    #     self.y_pred = pd.read_csv(y_pred_file, index_col=0)
+    #
+    #     _, self.y_actual = data.import_data(set=set)
+    #
+    #     self.y_pred.columns = self.y_actual.columns
 
-        self.y_pred = pd.read_csv(y_pred_file, index_col=0)
+    def __init__(self,y_pred_df, y_actual_df):
 
-        _, self.y_actual = data.import_data(set=set)
+        self.y_pred = y_pred_df
+
+        self.y_actual = y_actual_df
 
         self.y_pred.columns = self.y_actual.columns
 
