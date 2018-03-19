@@ -29,8 +29,6 @@ results = model.fit(maxiter=0)
 predictions = results.predict()
 predictions=(predictions.shift(-1)).dropna()
 
-#results.save("Optimal_order_VARXmodel.pickle")
-
 if predictions.shape[0] != Y.shape[0]:
     outcome = Y.tail(predictions.shape[0])
 else:
