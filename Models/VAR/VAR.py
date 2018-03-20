@@ -13,22 +13,37 @@ VAR_model = VAR(X)
 
 results = VAR_model.fit(1)
 predictions = results.fittedvalues
+
 #save the 1-order VAR model
 results.save("One_order_VARmodel.pickle")
 
-# predict on test set
+# initialize predict on test set
 predictions_test = np.zeros((X_test.shape[0],X_test.shape[1]))
+predictions_test_stress = np.zeros((X_test.shape[0],X_test.shape[1]))
+
 # turn into numpy array
 X_test_matrix = X_test.values
+
 # predict one-step ahead out-of-sample
 for i in range(0,X_test.shape[0]):
     predictions_test[i] = results.forecast(X_test_matrix[i,:].reshape(1,20), steps=1)
 
-# Turn back into panda dataframe and save to csv
+# stress test for VAR
+for i in range(0,int(X_test.shape[0]/2)):
+    predictions_test_stress[i] = results.forecast(X_test_matrix[i,:].reshape(1,20), steps=1)
+for i in range(int(X_test.shape[0]/2),X_test.shape[0]):
+    predictions_test_stress[i] = results.forecast(np.random.randn(1,20), steps=1)
+
+# Turn back into panda data frame and save to csv
 Test_pred = pd.DataFrame(data=predictions_test, index=X_test.index, columns=X_test.columns)
 columns = ['XMRspread', 'XMRvolume', 'XMRbasevolume','XRPspread', 'XRPvolume', 'XRPbasevolume','LTCspread', 'LTCvolume', 'LTCbasevolume', 'DASHspread', 'DASHvolume', 'DASHbasevolume','ETHspread', 'ETHvolume', 'ETHbasevolume']
 Test_pred.drop(columns, 1, inplace=True)
 Test_pred.to_csv(os.path.dirname(__file__) + '/predicted_values_VAR_test.csv')
+
+# stress test into panda data frame and csv
+Stress_test = pd.DataFrame(data=predictions_test_stress, index=X_test.index, columns=X_test.columns)
+Stress_test.drop(columns, 1, inplace=True)
+Stress_test.to_csv(os.path.dirname(__file__) + '/predicted_values_VAR_test_stress.csv')
 
 #columns to drop from dataframe
 predictions.drop(columns, 1, inplace=True)

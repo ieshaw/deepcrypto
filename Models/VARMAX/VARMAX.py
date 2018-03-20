@@ -31,11 +31,11 @@ predictions = results.predict()
 predictions=(predictions.shift(-1)).dropna()
 
 if predictions.shape[0] != Y.shape[0]:
-    outcome = endog_Y.tail(predictions.shape[0])
+    outcome = ((endog_Y.tail(predictions.shape[0])).shift(-1)).dropna()
 else:
-    outcome = endog_Y
+    outcome = (endog_Y.shift(-1)).dropna()
 
-accuracy_matrix = outcome*predictions
+accuracy_matrix = np.sign(outcome)*np.sign(predictions)
 accuracy_matrix.values
 accuracy = (np.sum(np.sum((accuracy_matrix > 0.0)))/accuracy_matrix.size)
 
@@ -49,8 +49,8 @@ Y_test_matrix = endog_Y_test.values
 predictions_test = np.zeros(endog_Y_test.shape)
 
 # predict one-step ahead out-of-sample
-for i in range(0,X_test.shape[0]):
-    predictions_test[i] = results.predict(start=i, end=i,exog=X_test_matrix,endog=Y_test_matrix)
+#for i in range(0,X_test.shape[0]):
+#    predictions_test[i] = results.forecast(start=0,end=0,exog=X_test_matrix[i,:].reshape(1,15))
 
 Test_pred = pd.DataFrame(data=predictions_test, index=Y_test.index, columns=Y_test.columns)
 Test_pred.to_csv(os.path.dirname(__file__) + '/predicted_values_VARMAX_test.csv')
