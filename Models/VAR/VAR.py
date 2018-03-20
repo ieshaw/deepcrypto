@@ -38,8 +38,11 @@ for i in range(int(X_test.shape[0]/2),X_test.shape[0]):
 Test_pred = pd.DataFrame(data=predictions_test, index=X_test.index, columns=X_test.columns)
 columns = ['XMRspread', 'XMRvolume', 'XMRbasevolume','XRPspread', 'XRPvolume', 'XRPbasevolume','LTCspread', 'LTCvolume', 'LTCbasevolume', 'DASHspread', 'DASHvolume', 'DASHbasevolume','ETHspread', 'ETHvolume', 'ETHbasevolume']
 Test_pred.drop(columns, 1, inplace=True)
-Test_pred=(Test_pred.shift(-1)).dropna()
 Test_pred.to_csv(os.path.dirname(__file__) + '/predicted_values_VAR_test.csv')
+
+# shifted data frame
+Test_pred_shifted=(Test_pred.shift(-1)).dropna()
+Test_pred_shifted.to_csv(os.path.dirname(__file__) + '/predicted_values_VAR_test_shifted.csv')
 
 # stress test into panda data frame and csv
 Stress_test = pd.DataFrame(data=predictions_test_stress, index=X_test.index, columns=X_test.columns)
