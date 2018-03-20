@@ -38,6 +38,7 @@ for i in range(int(X_test.shape[0]/2),X_test.shape[0]):
 Test_pred = pd.DataFrame(data=predictions_test, index=X_test.index, columns=X_test.columns)
 columns = ['XMRspread', 'XMRvolume', 'XMRbasevolume','XRPspread', 'XRPvolume', 'XRPbasevolume','LTCspread', 'LTCvolume', 'LTCbasevolume', 'DASHspread', 'DASHvolume', 'DASHbasevolume','ETHspread', 'ETHvolume', 'ETHbasevolume']
 Test_pred.drop(columns, 1, inplace=True)
+Test_pred=(Test_pred.shift(-1)).dropna()
 Test_pred.to_csv(os.path.dirname(__file__) + '/predicted_values_VAR_test.csv')
 
 # stress test into panda data frame and csv
@@ -58,5 +59,3 @@ predictions_optimal = results_optimal_order.fittedvalues
 predictions_optimal.drop(columns, 1, inplace=True)
 predictions_optimal=(predictions_optimal.shift(-1)).dropna()
 predictions_optimal.to_csv(os.path.dirname(__file__) + '/predicted_values_VAR_optimal.csv')
-
-print(results.summary())
