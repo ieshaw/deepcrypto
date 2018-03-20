@@ -58,3 +58,5 @@ predictions_optimal = results_optimal_order.fittedvalues
 predictions_optimal.drop(columns, 1, inplace=True)
 predictions_optimal=(predictions_optimal.shift(-1)).dropna()
 predictions_optimal.to_csv(os.path.dirname(__file__) + '/predicted_values_VAR_optimal.csv')
+
+print(results.summary())

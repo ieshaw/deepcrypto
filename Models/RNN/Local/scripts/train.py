@@ -2,6 +2,8 @@ __author__ = 'Ian'
 
 #using https://gist.github.com/spro/ef26915065225df65c1187562eca7ec4
 
+#https://github.com/pytorch/pytorch/issues/2769
+
 import os
 import time
 
@@ -13,7 +15,8 @@ import torch.optim as optim
 from torch.autograd import Variable
 
 from Data.scripts.data import data
-from Models.RNN.scripts.SimpleRNN import SimpleRNN
+# from Models.RNN.scripts.SimpleRNN import SimpleRNN
+from Models.RNN.scripts.LayerRNN import LayerRNN
 
 torch.manual_seed(1)
 
@@ -24,14 +27,18 @@ y = Y.as_matrix()
 
 #set model, loss, and optimization
 hidden_size = 10
-optim_string = 'SGD'
-model_string = 'Simple RNN'
-n_epochs = 200
-learning = 100
+# optim_string = 'SGD'
+optim_string = 'SGDM'
+model_string = 'Mom_Layer1_hiddenfor'
+# model_string = 'Simple RNN'
+n_epochs = 300
+learning = 10
 lr = learning * 10e-3
-model = SimpleRNN(hidden_size= hidden_size, input_size=len(X.iloc[0:1].values[0]), output_size= len(Y.iloc[0:1].values[0]))
+# model = SimpleRNN(hidden_size= hidden_size, input_size=len(X.iloc[0:1].values[0]), output_size= len(Y.iloc[0:1].values[0]))
+model = LayerRNN(hidden_size= hidden_size, input_size=len(X.iloc[0:1].values[0]), output_size= len(Y.iloc[0:1].values[0]))
 criterion = nn.MSELoss()
-optimizer = optim.SGD(model.parameters(), lr= lr)
+optimizer = optim.SGD(model.parameters(), lr= lr, momentum= 0.01)
+
 
 # add leadning rate decay
 
@@ -43,6 +50,8 @@ losses = np.zeros(n_epochs) # For plotting
 
 time_train = time.time()
 
+best_loss = np.inf
+
 for epoch in range(n_epochs):
 
     tic = time.time()
@@ -50,29 +59,33 @@ for epoch in range(n_epochs):
     for iter in range(len(x)):
         input = Variable(torch.from_numpy(x[iter]).float())
         target = Variable(torch.from_numpy(y[iter]).float())
+        #target = Variable(torch.from_numpy(np.where(y[iter] > 0, 2, 0) - 1).float())
 
-        output, hidden = model.forward(input)
+        output = model.forward(input)
+
+        # print('Iter: {}/{}'.format(iter, len(x)))
 
         optimizer.zero_grad()
         loss = criterion(output, target)
-        loss.backward()
+        loss.backward(retain_graph=True)
         optimizer.step()
-        scheduler.step()
 
         losses[epoch] += loss.data[0]
 
+    scheduler.step()
 
-    if epoch > 0:
-        print(epoch, loss.data[0])
-        print('Time of epoch: {}'.format(time.time() - tic))
+    print(epoch, losses[epoch])
+    print('Time of epoch: {}'.format(time.time() - tic))
 
-    if epoch + 1 % 100 == 0:
+    if losses[epoch] < best_loss:
+
+        best_loss = losses[epoch]
 
         # Save losses to csv
 
-        model_name = '{}_{}_{}'.format(optim_string, hidden_size, epoch + 1)
+        model_name = '{}_H{}'.format(model_string, hidden_size)
 
-        loss_df = pd.DataFrame({'loss': losses[:epoch] / len(x)})
+        loss_df = pd.DataFrame({'loss': losses[:(epoch+1)] / len(x)})
         loss_df.to_csv(
             os.path.abspath(os.path.join(os.path.dirname(__file__), '..')) + '/loss_csvs/{}.csv'.format(model_name))
 
@@ -84,7 +97,7 @@ for epoch in range(n_epochs):
         with open(filename, 'w') as f:
             f.write("{} \n".format(model_string))
             f.write("{} \n".format(model_name))
-            f.write("Num_Epochs = {}\n".format(n_epochs))
+            f.write("Num_Epochs = {}\n".format(epoch + 1))
             f.write("Hidden_Size = {}\n".format(hidden_size))
             f.write("Optimizer = {}\n".format(optim_string))
             f.write("Learning Rate = {}\n".format(lr))

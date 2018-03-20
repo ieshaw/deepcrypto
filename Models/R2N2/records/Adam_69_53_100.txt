@@ -1,7 +1,0 @@
-Simple R2N2 
-Adam_69_53_100 
-Num_Epochs = 100
-Hidden_Size = 69
-Optimizer = Adam
-Learning Rate = 0.53
-Time spent = 3414.3945920467377

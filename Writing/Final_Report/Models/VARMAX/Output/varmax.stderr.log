@@ -1,0 +1,4 @@
+Latexmk: Run number 1 of rule 'pdflatex'
+Failure to make '/Users/ianshaw/Documents/Stanford/Winter2018/CS230/Project/Final_Report/Models/VARMAX/Output/varmax.pdf'
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 256

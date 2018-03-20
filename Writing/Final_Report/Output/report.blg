@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Output/report.aux
+The style file: unsrt.bst
+Database file #1: refs.bib
+Warning--empty note in ian
+Warning--empty journal in structure
+Warning--empty year in structure
+Warning--all relevant fields are empty in varmax
+You've used 10 entries,
+            1791 wiz_defined-function locations,
+            494 strings with 4904 characters,
+and the built_in function-call counts, 1453 in all, are:
+= -- 106
+> -- 79
+< -- 0
++ -- 31
+- -- 21
+* -- 62
+:= -- 255
+add.period$ -- 28
+call.type$ -- 10
+change.case$ -- 7
+chr.to.int$ -- 0
+cite$ -- 14
+duplicate$ -- 69
+empty$ -- 153
+format.name$ -- 21
+if$ -- 315
+int.to.chr$ -- 0
+int.to.str$ -- 10
+missing$ -- 7
+newline$ -- 51
+num.names$ -- 9
+pop$ -- 37
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 38
+stack$ -- 0
+substring$ -- 0
+swap$ -- 8
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 4
+while$ -- 9
+width$ -- 12
+write$ -- 96
+(There were 4 warnings)

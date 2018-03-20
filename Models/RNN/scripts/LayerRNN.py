@@ -17,15 +17,31 @@ class LayerRNN(nn.Module):
         self.hidden_size = hidden_size
         self.input_size = input_size
         self.output_size = output_size
-
         self.inp = nn.Linear(self.input_size, hidden_size)
         self.rnn = nn.LSTM(hidden_size, hidden_size, 2, dropout=0.05)
         self.out = nn.Linear(hidden_size, self.output_size)
-        self.out2 = nn.Linear(self.output_size, self.output_size)
+        #self.out2 = nn.Linear(self.output_size, self.output_size)
+        # self.out3 = nn.Linear(self.output_size, self.output_size)
+        # self.relu = nn.ReLU()
+        #self.lekrel= nn.LeakyReLU(0.1)
+        self.hidden = self.init_hidden()
 
-    def forward(self, input, hidden=None):
+    def init_hidden(self, x=None):
+        if x == None:
+            return (Variable(torch.zeros(2, 1, self.hidden_size)),
+                    Variable(torch.zeros(2, 1, self.hidden_size)))
+        else:
+            return (Variable(x[0].data), Variable(x[1].data))
+
+    def forward(self, input):
         input = self.inp(input.view(1, -1)).unsqueeze(1)
-        output, hidden = self.rnn(input, hidden)
+        output, self.hidden_out = self.rnn(input, self.hidden)
         output = self.out(output.squeeze(1))
-        output = self.out2(output)
-        return output, hidden
+        #output = self.relu(output)
+        #output = self.lekrel(output)
+        #output = self.out2(output)
+        # output = self.relu(output)
+        # output = self.out3(output)
+        self.hidden = self.init_hidden(self.hidden_out)
+        return output
+

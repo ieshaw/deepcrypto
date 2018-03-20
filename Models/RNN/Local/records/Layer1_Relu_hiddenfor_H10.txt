@@ -1,0 +1,7 @@
+Layer1_Relu_hiddenfor 
+Layer1_Relu_hiddenfor_H10 
+Num_Epochs = 100
+Hidden_Size = 10
+Optimizer = SGD
+Learning Rate = 0.1
+Time spent = 864.8281850814819

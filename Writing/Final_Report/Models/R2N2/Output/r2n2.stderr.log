@@ -1,0 +1,6 @@
+Latexmk: Run number 1 of rule 'pdflatex'
+Latexmk: Summary of warnings:
+  Latex failed to resolve 1 citation(s)
+Failure to make '/Users/ianshaw/Documents/Stanford/Winter2018/CS230/Project/Final_Report/Models/R2N2/Output/r2n2.pdf'
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 256

@@ -1,0 +1,9 @@
+On June 26, 2017 Rami Kawach, the founder of the crypto-currency exchange Bittrex, posted a link on twitter to a google drive containing price history data \cite{twitter_data}. These files log prices as they are updated, with granularity maxing out to one minute intervals. Each csv tracks the full history of each coin from ICO to June 25, 2017.
+
+For our investigation, we use the hourly return against Bitcoin (BTC), volume, base volume, and spread for Ethereum (ETH), Litecoin (LTC), Ripple(XRP), Dash (DASH), and Monero (XMR). These coins were selected as they were the most liquid five currencies accross our data period of September 13, 2015 to June 25, 2017. 
+
+For reference, Bittrex is incorporated and operated from the United States and maintains a New York Bitlicense. 
+
+\subsection{Set Distributions}
+
+To avoid bias with respect to the market regime, we split the data into a training set comprising September 2015 through December 2016, a cross-validation set comprising December 2016 through March 2017, and a test set comprising the remainder through June 2017. This equates to one year and one quarter (70\%), validated and tested on one quarter (15\%). Because time-dependent predictions should not incorporate future information, we do not partition the data randomly, as is typical in some other deep-learning applications.
