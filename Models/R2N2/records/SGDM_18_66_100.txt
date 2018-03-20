@@ -1,7 +1,0 @@
-Simple R2N2 
-SGDM_18_66_100 
-Num_Epochs = 100
-Hidden_Size = 18
-Optimizer = SGDM
-Learning Rate = 0.66
-Time spent = 3590.7397475242615

@@ -1,7 +1,0 @@
-Simple RNN 
-SGDM_10_90_100 
-Num_Epochs = 100
-Hidden_Size = 10
-Optimizer = SGDM
-Learning Rate = 0.9
-Time spent = 3563.6135704517365
