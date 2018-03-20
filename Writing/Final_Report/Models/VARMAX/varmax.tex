@@ -1,0 +1,7 @@
+The VARMAX model is an extension of the VAR model with the addition of moving average (MA) and exogenous (X) regressors. Our hyperparameter search found there to be no moving average predictability ($q=0$) so this will be left out of our discussion. The addiction of exogenous regressors is an investigation into external-market level factors that could shed further light into price movements. Common examples of exogenous factors are seasonaly or temporal phenomnenon. More specific examples could be how the US Stock Market may act erratically on monday mornings as traders hope to execute on the two days of weekend news that has been waiting to take effect. In short, exogenous factors are those that can have systematic effects onto the market while being outside the market. 
+
+Mathematically, this takes the form of \cite{varmax}
+\[
+\omega_{t}=\sum_{i=1}^{p} A_{i}\omega_{t-i} + B x_t + c+\varepsilon_{t}\\
+\]
+Where we are fitting another matrix ($B$) of weights onto the feature vecotr $x_t$. Curiously, a hyperparameter search over our validation set found a $p=7$, seven hour time lag, to be optimal. This implies that the addition of exogenous feature attention allowed the model to see beyond the volatility that distracted the VAR model. 

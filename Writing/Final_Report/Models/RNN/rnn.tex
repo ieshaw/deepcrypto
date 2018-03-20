@@ -1,0 +1,15 @@
+The recurrent neural network approach attempts to leverage the power of long-short term memory (LSTM) architecture so that the network will learn for itelf the appropriate window from which to predict future returns.
+
+Our investigation trained models with a stochastic gradient descent optimizer with 300 epoch passes throught the training set and a learning rate scheduler beginning at $0.01$ and shrinking by a factor of 10 twice through the trianing process.
+
+We found through hyperparameter search that a network with ten hidden layers the following architecture to be optimal for our setting.
+
+\[
+\mathrm{Data}
+\rightarrow \mathrm{Dense} 
+\rightarrow \mathrm{LSTM}
+\rightarrow \mathrm{LSTM}
+\rightarrow\mathrm{Dense}
+\rightarrow \mathrm{Prediction}
+\]
+

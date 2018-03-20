@@ -1,0 +1,166 @@
+\documentclass{article}
+\usepackage{graphicx,fancyhdr,amsmath,amssymb,amsthm,subfigure,url,hyperref}
+\usepackage[margin=1in]{geometry}
+\usepackage{caption}
+\usepackage{comment}
+\usepackage{framed} 
+\usepackage{indentfirst}
+%\usepackage{supertabular,booktabs}
+%\usepackage{supertabular}
+%\usepackage{xtab}
+\usepackage{amsmath}
+\usepackage{csquotes}
+\usepackage{longtable}
+\usepackage{multicol}
+\usepackage{appendix}
+\setlength{\parindent}{1.5cm}
+
+%------------ Algorithm Enviroment --------------
+\usepackage{bbm}
+\usepackage{algorithmic}
+\usepackage[ruled,vlined]{algorithm2e}
+%%%%%%
+\SetKwProg{Fn}{Function}{}{}
+%%%%%%
+
+%------------ Bibliography  Setup --------------
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+
+%Includes "References" in the table of contents
+\usepackage[nottoc]{tocbibind}
+
+%------------ Hyperlinnk Setup --------------
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=magenta,      
+    urlcolor=black,
+    citecolor = black
+}
+
+% \hypersetup{
+%     colorlinks=true,
+%     linkcolor=blue,
+%     filecolor=magenta,      
+%     urlcolor=cyan,
+% }
+ 
+\urlstyle{same}
+
+%--------------------------------- Tables ----------------------------------
+\usepackage{multicol}
+\usepackage{xtab}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage[normalem]{ulem}
+\useunder{\uline}{\ul}{}
+\usepackage{floatrow}
+
+
+\makeatletter
+\let\mcnewpage\newpage
+\newcommand{\changenewpage}{%
+  \renewcommand\newpage{%
+    \if@firstcolumn
+      \hrule width\linewidth height0pt
+      \columnbreak
+    \else
+      \mcnewpage
+    \fi
+}}
+\makeatother
+
+%----------------------- Macros and Definitions --------------------------
+
+
+
+
+%%% FILL THIS OUT
+\newcommand{\p}{\mathbb{P}}
+\newcommand{\E}{\mathbb{E}}
+%%% END
+% Table float box with bottom caption, box width adjusted to content
+\newfloatcommand{capbtabbox}{table}[][\FBwidth]
+
+\newtheorem{theorem}{Theorem}
+
+
+
+\renewcommand{\theenumi}{\bf \arabic{enumi}}
+
+%\theoremstyle{plain}
+%\newtheorem{theorem}{Theorem}
+%\newtheorem{lemma}[theorem]{Lemma}
+
+\fancypagestyle{plain}{}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[RO,LE]{\sffamily\bfseries\large Stanford University}
+\fancyhead[LO,RE]{\sffamily\bfseries\large CS230: Deep Learning}
+%\fancyfoot[LO,RE]{\sffamily\bfseries\large \studentname: \suid @stanford.edu}
+\fancyfoot[RO,LE]{\sffamily\bfseries\thepage}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+
+\usepackage{float}
+%\usepackage{subfig}
+\graphicspath{{figures/}}
+
+
+%-------------------------------- Title ----------------------------------
+
+%\title{Deep Learning (CS230) Course Project Milestone}
+\title{Hybrid Autoregressive-Recurrent Neural Network Architecture for Algorithmic Trading of Cryptocurrencies}
+\author{
+  Persson, Samuel\\
+  \texttt{joelpe@stanford.edu}
+  \and
+  Slottje, Andrew\\
+  \texttt{slottje@stanford.edu}
+  \and
+  Shaw, Ian\\
+  \texttt{ieshaw@stanford.edu}
+}
+
+%--------------------------------- Text ----------------------------------
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\input{Abstract/abstract.tex}
+\end{abstract}
+
+\section{Introduction and Literature Review}
+
+\input{Intro/intro.tex}
+
+\section{Data}
+
+\input{Data/data.tex}
+
+\section{Models}
+
+\input{Models/models.tex}
+
+\section{Results}
+
+\input{Results/results.tex}
+
+\section{Discussion}
+
+\input{Discussion/discussion.tex}
+
+\section{Future Work}
+
+\input{Future_Work/future_work.tex}
+
+\section{Contributions}
+We apportioned work equally for the project. Joel worked on developing the VAR and VARMAX Models. Ian developed the multi-coin RNN and R2N2 models and constructed the backtester. Andrew worked with the literature review, data processing and the report.
+
+\section{Codebase}
+$\mathtt{https://github.com/ieshaw/deepcrypto.git}$
+\bibliographystyle{unsrt}
+\bibliography{refs}
+\end{document}

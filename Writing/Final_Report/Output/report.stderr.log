@@ -1,0 +1,3 @@
+Latexmk: Run number 1 of rule 'pdflatex'
+Latexmk: ===For rule 'pdflatex', actual output 'Output/report.pdf'
+       ======appears not to match expected output '/Users/ianshaw/Documents/Stanford/Winter2018/CS230/Project/Final_Report/Output/report.pdf'

@@ -1,0 +1,57 @@
+\begin{thebibliography}{10}
+
+\bibitem{YW}
+Qiang Yang and Xindong Wu.
+\newblock 10 challenging problems in data mining research.
+\newblock {\em International Journal of Information Technology \& Decision
+  Making}, 5(4), 2006.
+
+\bibitem{r}
+François Chollet and J.J. Allaire.
+\newblock Time series forecasting with recurrent neural networks.
+\newblock
+  \url{https://tensorflow.rstudio.com/blog/time-series-forecasting-with-recurrent-neural-networks.html}.
+\newblock Accessed: 2018-1-28.
+
+\bibitem{Azoff}
+E.~Michael Azoff.
+\newblock {\em Neural Network Time Series Forecasting of Financial Markets}.
+\newblock John Wiley \& Sons, Inc., 1994.
+
+\bibitem{Lankvist}
+Martin Längkvist, Lars Karlsson, and Amy Loutfi.
+\newblock A review of unsupervised feature learning and deep learning for
+  time-series modeling.
+\newblock {\em Pattern Recognition Letters}, 42, 2014.
+
+\bibitem{ian}
+Ian Shaw.
+\newblock Algorithmic trading of cryptocurrencies.
+
+\bibitem{r2n2}
+Hardik Goel, Igor Melnyk, and Arindam Banerjee.
+\newblock {R2N2:} residual recurrent neural networks for multivariate time
+  series forecasting.
+\newblock {\em CoRR}, abs/1709.03159, 2017.
+
+\bibitem{ecology}
+Abeer ElBahrawy, Laura Alessandretti, Anne Kandler, Romualdo Pastor-Satorras,
+  and Andrea Baronchelli.
+\newblock Evolutionary dynamics of the cryptocurrency market.
+\newblock {\em Royal Society Open Science 4}, 170623, 2017.
+
+\bibitem{structure}
+Peter~M Krafft, Nicolás~Della Penna, and Alex Pentland.
+\newblock An experimental study of cryptocurrency market dynamics.
+\newblock Forthcoming in ACM CHI Conference on Human Factors in Computing
+  Systems (CHI) in 2018.
+
+\bibitem{twitter_data}
+Rami Kawach.
+\newblock \url{https://twitter.com/ramikawach/status/879405390118633472}.
+\newblock Accessed: 2017-10-15.
+
+\bibitem{varmax}
+
+
+\end{thebibliography}

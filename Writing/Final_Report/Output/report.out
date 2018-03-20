@@ -1,0 +1,19 @@
+\BOOKMARK [1][-]{section.1}{Introduction and Literature Review}{}% 1
+\BOOKMARK [1][-]{section.2}{Data}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Set Distributions}{section.2}% 3
+\BOOKMARK [1][-]{section.3}{Models}{}% 4
+\BOOKMARK [2][-]{subsection.3.1}{Models}{section.3}% 5
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Multi-Coin Thesis}{subsection.3.1}% 6
+\BOOKMARK [3][-]{subsubsection.3.1.2}{Vector Auto-Regressive \(VAR\)}{subsection.3.1}% 7
+\BOOKMARK [3][-]{subsubsection.3.1.3}{Vector Auto-Regressive Moving Average Exogenous \(VARMAX\)}{subsection.3.1}% 8
+\BOOKMARK [3][-]{subsubsection.3.1.4}{Multi-coin Recurrent Neural Network \(RNN\)}{subsection.3.1}% 9
+\BOOKMARK [3][-]{subsubsection.3.1.5}{Multi-coin Residual Recurrent Neural Network \(R2N2\)}{subsection.3.1}% 10
+\BOOKMARK [1][-]{section.4}{Results}{}% 11
+\BOOKMARK [1][-]{section.5}{Discussion}{}% 12
+\BOOKMARK [2][-]{subsection.5.1}{Observations}{section.5}% 13
+\BOOKMARK [2][-]{subsection.5.2}{Discerning Metrics}{section.5}% 14
+\BOOKMARK [2][-]{subsection.5.3}{VAR and R2N2 Excessive Pefromance}{section.5}% 15
+\BOOKMARK [1][-]{section.6}{Future Work}{}% 16
+\BOOKMARK [1][-]{section.7}{Contributions}{}% 17
+\BOOKMARK [1][-]{section.8}{Codebase}{}% 18
+\BOOKMARK [1][-]{section*.1}{References}{}% 19

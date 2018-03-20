@@ -1,0 +1,7 @@
+LSTM_6_BFC_1_AFC_1_Act_None 
+LSTM_6_BFC_1_AFC_1_Act_None_H10 
+Num_Epochs = 231
+Hidden_Size = 10
+Optimizer = SGD
+Learning Rate = 0.1
+Time spent = 4370.830517053604

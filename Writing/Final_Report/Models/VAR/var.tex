@@ -1,0 +1,7 @@
+Vector autoregression (VAR) is a method that models the discrete-time evolution of a stochastic variable $\omega_{t}$ as 
+\[
+\omega_{t}=\sum_{i=1}^{p} A_{i}\omega_{t-i}+c+\varepsilon_{t}\\
+\]
+where $A_{i}$ are a set of matrices expressing correlation in terms and $\varepsilon_{t}$ is the error term. As you can see, this model exposes linear relationships between trailing and upcoming data witht he hyperparameter of the lag $p$. 
+
+We found through hyperparameter search acrross our validation set that the optimal lag for our setting is $p=1$, indicating a lag of a single time step, 1 hour. We believe this is works best due to the the high volatility of the cryptocurrency markets which do not allow for longer term linear relationships to develop. 

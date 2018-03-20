@@ -1,0 +1,14 @@
+\subsection{Observations}
+The most obvious take away from the results is that none of our strategies beat the baseline. This is consistent with previous findings over the same dataset. \cite{ian} Yet, we believe this is also due to a difficulty in loss function and discerning metric (metric by which to compare models on the validation set) decisions. 
+
+We also note that the R2N2 model outperforms the RNN. This gives creedence to the findings of Hardick et. al that the feeding of residuals can improve the RNN predicatbility. Thus between this, and the earlier findings of necessitating a deeper R2N2 for still worse MSE loss than the RNN, we will stay unresolved on the efficacy of the R2N2 model. 
+
+\subsection{Discerning Metrics}
+
+We included strategies trained with moentum coefficients (R2N2Mom, RNNMom) in our test set results. The reason is that even though they under-preformed those trained without momentumon the validation set, the experienced less variance between the training and test set returns. As you can see, this had mixed results on returns over the test set. 
+
+This provides an interesting background into the difficulty of deciding metrics for out-of-sample returns. In our investigation, we ranked models due to their in-sample returns on the validation set. Furthermore, we used mean squared error on out loss function, which we show does not translate to returns directly. Furthermore, AUC (area under the receiever operating characteristic curve), which we used as a metric of classificaiton accuracy, does not translate directly to superior returns either. Thus, we believe, the best way to imporve results would be a dedicated investigation in the best cost function and discerning metric for cryptocurrency algorithms. 
+
+\subsection{VAR and R2N2 Excessive Pefromance}
+
+The returns of the VAR algorithm, and the R2N2 (built on top of VAR) are excessive to the point of unbelievable. Yet, their other metrics of MSE and AUC are not proportionally excessive. Further suprise is shown that a random walk approach of simply guessing the next return to be the same as the previous return results in a loss of 87\% of the portfolio over the test period. 

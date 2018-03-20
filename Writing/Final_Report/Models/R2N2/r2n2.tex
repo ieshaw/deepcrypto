@@ -1,0 +1,22 @@
+The concept of a Residual Recurrent Neural Network was developed by Hardik et. al. with respect to error analysis \cite{r2n2}. The idea is essentially a form of feature engineeing, where a recurrent neural network does not learn the returns, but rather the residuals for an autoregressive model on the returns. 
+
+Our investigation trained models with a stochastic gradient descent optimizer with 300 epoch passes throught the training set and a learning rate scheduler beginning at $0.01$ and shrinking by a factor of 10 twice through the trianing process.
+
+We found through hyperparameter search that a network with ten hidden layers the following architecture to be optimal for our setting.
+
+\begin{align*}
+\mathrm{Data}
+ \rightarrow  \mathrm{VAR} 
+\rightarrow \mathrm{Dense}
+\rightarrow \mathrm{ReLU} &
+\rightarrow \mathrm{LSTM}
+\rightarrow \mathrm{LSTM} \\
+&\rightarrow \mathrm{LSTM}
+\rightarrow \mathrm{LSTM}
+\rightarrow \mathrm{LSTM}
+\rightarrow \mathrm{LSTM}
+\rightarrow\mathrm{Dense} + \mathrm{VAR} 
+\rightarrow \mathrm{Prediction}
+\end{align*}
+
+Curiously, the R2N2 model necessitated many more LSTM layers for optimal MSE preformance which was still worse than that of the pure RNN. This is counter to the findings of Hardik et. al., where in their investigation the VAR feature engineering allowed the network to be shallower and quicker to learn a better prediction than the RNN. 

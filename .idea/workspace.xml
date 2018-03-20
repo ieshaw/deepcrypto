@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdc510df-b12c-4d60-aa7a-0efe9971852c" name="Default" comment="" />
+    <list default="true" id="fdc510df-b12c-4d60-aa7a-0efe9971852c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deepcrypto.iml" afterPath="$PROJECT_DIR$/.idea/deepcrypto.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,42 +14,46 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/deepcrypto$darnn.coverage" NAME="darnn Coverage Results" MODIFIED="1518312766495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/RNN" />
-    <SUITE FILE_PATH="coverage/deepcrypto$evaluate_accuracy__3_.coverage" NAME="evaluate_accuracy (3) Coverage Results" MODIFIED="1519355004848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/Baseline/scripts" />
-    <SUITE FILE_PATH="coverage/deepcrypto$scratch__1_.coverage" NAME="scratch (1) Coverage Results" MODIFIED="1520707091536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/Evaluation" />
-    <SUITE FILE_PATH="coverage/deepcrypto$evaluate_accuracy__1_.coverage" NAME="evaluate_accuracy (1) Coverage Results" MODIFIED="1519354200345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/RNN/milestone_work/scripts" />
-    <SUITE FILE_PATH="coverage/deepcrypto$evaluate_accuracy.coverage" NAME="evaluate_accuracy Coverage Results" MODIFIED="1519355198318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/VAR/milestone_work/scripts" />
-    <SUITE FILE_PATH="coverage/deepcrypto$evaluate_model__2_.coverage" NAME="evaluate_model (2) Coverage Results" MODIFIED="1519352543019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/VAR/milestone_work/scripts" />
-    <SUITE FILE_PATH="coverage/deepcrypto$data_load_example.coverage" NAME="data_load_example Coverage Results" MODIFIED="1519322593496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models" />
-    <SUITE FILE_PATH="coverage/deepcrypto$VAR.coverage" NAME="VAR Coverage Results" MODIFIED="1521517313255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/VAR" />
-    <SUITE FILE_PATH="coverage/deepcrypto$Python_Console.coverage" NAME="Python Console Coverage Results" MODIFIED="1521236541230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/deepcrypto$run_model.coverage" NAME="run_model Coverage Results" MODIFIED="1519352800534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/R2N2/milestone_work/scripts" />
-    <SUITE FILE_PATH="coverage/deepcrypto$evaluate_model__1_.coverage" NAME="evaluate_model (1) Coverage Results" MODIFIED="1519352917016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/R2N2/milestone_work/scripts" />
-    <SUITE FILE_PATH="coverage/deepcrypto$scratch_hyperparameters.coverage" NAME="scratch_hyperparameters Coverage Results" MODIFIED="1520626098708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/R2N2/scripts" />
-    <SUITE FILE_PATH="coverage/deepcrypto$test_rnn.coverage" NAME="test_rnn Coverage Results" MODIFIED="1518320927401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/RNN" />
-    <SUITE FILE_PATH="coverage/deepcrypto$train__1_.coverage" NAME="train (1) Coverage Results" MODIFIED="1519337227181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/R2N2" />
-    <SUITE FILE_PATH="coverage/deepcrypto$raw_to_normalized.coverage" NAME="raw_to_normalized Coverage Results" MODIFIED="1517971833382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data/scripts" />
-    <SUITE FILE_PATH="coverage/deepcrypto$collect_loss.coverage" NAME="collect_loss Coverage Results" MODIFIED="1521240951736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/R2N2/scripts" />
-    <SUITE FILE_PATH="coverage/deepcrypto$scratch__2_.coverage" NAME="scratch (2) Coverage Results" MODIFIED="1520709248733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/RNN/scripts" />
-    <SUITE FILE_PATH="coverage/deepcrypto$evaluate_accuracy__2_.coverage" NAME="evaluate_accuracy (2) Coverage Results" MODIFIED="1519851937419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/R2N2/milestone_work/scripts" />
-    <SUITE FILE_PATH="coverage/deepcrypto$split_data.coverage" NAME="split_data Coverage Results" MODIFIED="1519322584902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data/scripts" />
-    <SUITE FILE_PATH="coverage/deepcrypto$all_to_y.coverage" NAME="all_to_y Coverage Results" MODIFIED="1519322549322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data/scripts" />
-    <SUITE FILE_PATH="coverage/deepcrypto$find_lowest_loss.coverage" NAME="find_lowest_loss Coverage Results" MODIFIED="1521240800006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/RNN/scripts" />
-    <SUITE FILE_PATH="coverage/deepcrypto$all_csv_to_one.coverage" NAME="all_csv_to_one Coverage Results" MODIFIED="1517971683254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data" />
-    <SUITE FILE_PATH="coverage/deepcrypto$train.coverage" NAME="train Coverage Results" MODIFIED="1521246380351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/RNN/Local/scripts" />
     <SUITE FILE_PATH="coverage/deepcrypto$plot_loss.coverage" NAME="plot_loss Coverage Results" MODIFIED="1519338135006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/R2N2/milestone_work/scripts" />
-    <SUITE FILE_PATH="coverage/deepcrypto$time_series_plots.coverage" NAME="time_series_plots Coverage Results" MODIFIED="1519180650728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/Baseline" />
-    <SUITE FILE_PATH="coverage/deepcrypto$rnn.coverage" NAME="rnn Coverage Results" MODIFIED="1519323077568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/RNN" />
-    <SUITE FILE_PATH="coverage/deepcrypto$evaluate_models.coverage" NAME="evaluate_models Coverage Results" MODIFIED="1520714566622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/Evaluation" />
-    <SUITE FILE_PATH="coverage/deepcrypto$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1519853378382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/RNN" />
-    <SUITE FILE_PATH="coverage/deepcrypto$evaluate_model.coverage" NAME="evaluate_model Coverage Results" MODIFIED="1519849873981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/RNN/milestone_work/scripts" />
-    <SUITE FILE_PATH="coverage/deepcrypto$evaluate_models__1_.coverage" NAME="evaluate_models (1) Coverage Results" MODIFIED="1520718975979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/RNN/scripts" />
-    <SUITE FILE_PATH="coverage/deepcrypto$eval.coverage" NAME="eval Coverage Results" MODIFIED="1519853375820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/Evaluation" />
-    <SUITE FILE_PATH="coverage/deepcrypto$practicing_Ar.coverage" NAME="practicing_Ar Coverage Results" MODIFIED="1519337612869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/R2N2" />
+    <SUITE FILE_PATH="coverage/deepcrypto$darnn.coverage" NAME="darnn Coverage Results" MODIFIED="1518312766495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/RNN" />
+    <SUITE FILE_PATH="coverage/deepcrypto$run_model.coverage" NAME="run_model Coverage Results" MODIFIED="1519352800534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/R2N2/milestone_work/scripts" />
+    <SUITE FILE_PATH="coverage/deepcrypto$scratch__2_.coverage" NAME="scratch (2) Coverage Results" MODIFIED="1520709248733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/RNN/scripts" />
     <SUITE FILE_PATH="coverage/deepcrypto$make_y_pred_ones.coverage" NAME="make_y_pred_ones Coverage Results" MODIFIED="1519354555044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/Baseline/scripts" />
-    <SUITE FILE_PATH="coverage/deepcrypto$evaluate_strategy.coverage" NAME="evaluate_strategy Coverage Results" MODIFIED="1519182740543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/Baseline" />
-    <SUITE FILE_PATH="coverage/deepcrypto$train_not_cuda.coverage" NAME="train_not_cuda Coverage Results" MODIFIED="1520719140952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/R2N2/scripts" />
+    <SUITE FILE_PATH="coverage/deepcrypto$train__1_.coverage" NAME="train (1) Coverage Results" MODIFIED="1519337227181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/R2N2" />
+    <SUITE FILE_PATH="coverage/deepcrypto$model_to_csv.coverage" NAME="model_to_csv Coverage Results" MODIFIED="1521518317138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/R2N2/Local/testing" />
+    <SUITE FILE_PATH="coverage/deepcrypto$scratch_hyperparameters.coverage" NAME="scratch_hyperparameters Coverage Results" MODIFIED="1520626098708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/R2N2/scripts" />
+    <SUITE FILE_PATH="coverage/deepcrypto$all_csv_to_one.coverage" NAME="all_csv_to_one Coverage Results" MODIFIED="1517971683254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data" />
     <SUITE FILE_PATH="coverage/deepcrypto$VARMAX.coverage" NAME="VARMAX Coverage Results" MODIFIED="1521517226826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/VARMAX" />
+    <SUITE FILE_PATH="coverage/deepcrypto$collect_loss.coverage" NAME="collect_loss Coverage Results" MODIFIED="1521240951736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/R2N2/scripts" />
+    <SUITE FILE_PATH="coverage/deepcrypto$evaluate_strategy.coverage" NAME="evaluate_strategy Coverage Results" MODIFIED="1519182740543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/Baseline" />
+    <SUITE FILE_PATH="coverage/deepcrypto$VAR.coverage" NAME="VAR Coverage Results" MODIFIED="1521519976939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/VAR" />
+    <SUITE FILE_PATH="coverage/deepcrypto$evaluate_model__2_.coverage" NAME="evaluate_model (2) Coverage Results" MODIFIED="1519352543019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/VAR/milestone_work/scripts" />
+    <SUITE FILE_PATH="coverage/deepcrypto$train_not_cuda.coverage" NAME="train_not_cuda Coverage Results" MODIFIED="1520719140952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/R2N2/scripts" />
+    <SUITE FILE_PATH="coverage/deepcrypto$evaluate_accuracy__3_.coverage" NAME="evaluate_accuracy (3) Coverage Results" MODIFIED="1519355004848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/Baseline/scripts" />
+    <SUITE FILE_PATH="coverage/deepcrypto$random_walk.coverage" NAME="random_walk Coverage Results" MODIFIED="1521519150176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/Test_Set/Scripts" />
+    <SUITE FILE_PATH="coverage/deepcrypto$data_load_example.coverage" NAME="data_load_example Coverage Results" MODIFIED="1519322593496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models" />
+    <SUITE FILE_PATH="coverage/deepcrypto$time_series_plots.coverage" NAME="time_series_plots Coverage Results" MODIFIED="1519180650728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/Baseline" />
+    <SUITE FILE_PATH="coverage/deepcrypto$find_lowest_loss.coverage" NAME="find_lowest_loss Coverage Results" MODIFIED="1521240800006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/RNN/scripts" />
+    <SUITE FILE_PATH="coverage/deepcrypto$split_data.coverage" NAME="split_data Coverage Results" MODIFIED="1519322584902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data/scripts" />
+    <SUITE FILE_PATH="coverage/deepcrypto$evaluate_accuracy__1_.coverage" NAME="evaluate_accuracy (1) Coverage Results" MODIFIED="1519354200345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/RNN/milestone_work/scripts" />
+    <SUITE FILE_PATH="coverage/deepcrypto$train.coverage" NAME="train Coverage Results" MODIFIED="1521246380351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/RNN/Local/scripts" />
+    <SUITE FILE_PATH="coverage/deepcrypto$Csv_to_output.coverage" NAME="Csv_to_output Coverage Results" MODIFIED="1521518386291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/Test_Set/Scripts" />
+    <SUITE FILE_PATH="coverage/deepcrypto$practicing_Ar.coverage" NAME="practicing_Ar Coverage Results" MODIFIED="1519337612869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/R2N2" />
+    <SUITE FILE_PATH="coverage/deepcrypto$evaluate_models.coverage" NAME="evaluate_models Coverage Results" MODIFIED="1520714566622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/Evaluation" />
+    <SUITE FILE_PATH="coverage/deepcrypto$evaluate_model__1_.coverage" NAME="evaluate_model (1) Coverage Results" MODIFIED="1519352917016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/R2N2/milestone_work/scripts" />
+    <SUITE FILE_PATH="coverage/deepcrypto$evaluate_models__1_.coverage" NAME="evaluate_models (1) Coverage Results" MODIFIED="1520718975979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/RNN/scripts" />
+    <SUITE FILE_PATH="coverage/deepcrypto$test_rnn.coverage" NAME="test_rnn Coverage Results" MODIFIED="1518320927401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/RNN" />
+    <SUITE FILE_PATH="coverage/deepcrypto$Python_Console.coverage" NAME="Python Console Coverage Results" MODIFIED="1521236541230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/deepcrypto$scratch__1_.coverage" NAME="scratch (1) Coverage Results" MODIFIED="1520707091536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/Evaluation" />
+    <SUITE FILE_PATH="coverage/deepcrypto$eval.coverage" NAME="eval Coverage Results" MODIFIED="1519853375820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/Evaluation" />
+    <SUITE FILE_PATH="coverage/deepcrypto$rnn.coverage" NAME="rnn Coverage Results" MODIFIED="1519323077568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/RNN" />
+    <SUITE FILE_PATH="coverage/deepcrypto$evaluate_model.coverage" NAME="evaluate_model Coverage Results" MODIFIED="1519849873981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/RNN/milestone_work/scripts" />
+    <SUITE FILE_PATH="coverage/deepcrypto$evaluate_accuracy__2_.coverage" NAME="evaluate_accuracy (2) Coverage Results" MODIFIED="1519851937419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/R2N2/milestone_work/scripts" />
+    <SUITE FILE_PATH="coverage/deepcrypto$raw_to_normalized.coverage" NAME="raw_to_normalized Coverage Results" MODIFIED="1517971833382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data/scripts" />
+    <SUITE FILE_PATH="coverage/deepcrypto$all_to_y.coverage" NAME="all_to_y Coverage Results" MODIFIED="1519322549322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data/scripts" />
+    <SUITE FILE_PATH="coverage/deepcrypto$plot_strats.coverage" NAME="plot_strats Coverage Results" MODIFIED="1521518541578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/Test_Set/Scripts" />
+    <SUITE FILE_PATH="coverage/deepcrypto$evaluate_accuracy.coverage" NAME="evaluate_accuracy Coverage Results" MODIFIED="1519355198318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/VAR/milestone_work/scripts" />
+    <SUITE FILE_PATH="coverage/deepcrypto$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1519853378382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models/RNN" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -62,33 +70,14 @@
     <expand />
     <select />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="VAR.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Models/VAR/VAR.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VARMAX.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Models/VARMAX/VARMAX.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="48" column="47" lean-forward="false" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="predicted_values_VARMAX_test.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Models/VARMAX/predicted_values_VARMAX_test.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+            <state relative-caret-position="400">
+              <caret line="46" column="24" lean-forward="true" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -111,8 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Models/RNN/rnn.ipynb" />
-        <option value="$PROJECT_DIR$/Models/RNN/darnn.py" />
         <option value="$PROJECT_DIR$/Models/RNN/test_rnn.py" />
         <option value="$PROJECT_DIR$/Models/data_load_example.py" />
         <option value="$PROJECT_DIR$/Models/Baseline/scratch.py" />
@@ -160,8 +147,10 @@
         <option value="$PROJECT_DIR$/Models/R2N2/scripts/collect_loss.py" />
         <option value="$PROJECT_DIR$/Models/RNN/Local/scripts/train.py" />
         <option value="$PROJECT_DIR$/Models/RNN/scripts/LayerRNN.py" />
-        <option value="$PROJECT_DIR$/Models/VAR/VAR.py" />
         <option value="$PROJECT_DIR$/Models/VARMAX/VARMAX.py" />
+        <option value="$PROJECT_DIR$/Models/R2N2/Local/testing/model_to_csv.py" />
+        <option value="$PROJECT_DIR$/Models/Test_Set/Scripts/plot_strats.py" />
+        <option value="$PROJECT_DIR$/Models/VAR/VAR.py" />
       </list>
     </option>
   </component>
@@ -172,10 +161,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="41" />
-    <option name="y" value="23" />
-    <option name="width" value="1378" />
-    <option name="height" value="797" />
+    <option name="x" value="-1440" />
+    <option name="y" value="304" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -196,48 +185,80 @@
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <expand>
-            <path>
-              <item name="deepcrypto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deepcrypto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="deepcrypto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deepcrypto" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="deepcrypto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deepcrypto" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-              <item name="csvs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="deepcrypto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deepcrypto" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-              <item name="csvs" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="deepcrypto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deepcrypto" type="462c0819:PsiDirectoryNode" />
-              <item name="Models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="deepcrypto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deepcrypto" type="462c0819:PsiDirectoryNode" />
-              <item name="Models" type="462c0819:PsiDirectoryNode" />
-              <item name="VAR" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="deepcrypto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deepcrypto" type="462c0819:PsiDirectoryNode" />
-              <item name="Models" type="462c0819:PsiDirectoryNode" />
-              <item name="VARMAX" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deepcrypto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deepcrypto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deepcrypto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deepcrypto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deepcrypto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deepcrypto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VAR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deepcrypto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deepcrypto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test_Set" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deepcrypto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deepcrypto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -249,19 +270,19 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Models/RNN/Local/scripts" />
-      <recent name="$PROJECT_DIR$/Models/RNN/Local" />
-      <recent name="$PROJECT_DIR$/Models/R2N2/scripts" />
-      <recent name="$PROJECT_DIR$/Models/Perfect/csvs" />
-      <recent name="$PROJECT_DIR$/Models/Evaluation" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Models/RNN/AWS" />
       <recent name="$PROJECT_DIR$/Models/RNN/AWS/scripts" />
       <recent name="$PROJECT_DIR$/Models/RNN/scripts" />
       <recent name="$PROJECT_DIR$/Models/R2N2/scripts" />
       <recent name="$PROJECT_DIR$/Models/RNN/milestone_work/scripts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Models/Test_Set/Pred_CSVs" />
+      <recent name="$PROJECT_DIR$/Models/RNN/Local/scripts" />
+      <recent name="$PROJECT_DIR$/Models/RNN/Local" />
+      <recent name="$PROJECT_DIR$/Models/R2N2/scripts" />
+      <recent name="$PROJECT_DIR$/Models/Perfect/csvs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -277,7 +298,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.VAR">
-    <configuration name="VAR" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="VAR" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -293,84 +314,79 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Models/VAR/VAR.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
+      <method />
     </configuration>
-    <configuration name="VARMAX" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="model_to_csv" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Models/VARMAX" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Models/R2N2/Local/testing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="deepcrypto" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Models/VARMAX/VARMAX.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Models/R2N2/Local/testing/model_to_csv.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
+      <method />
     </configuration>
-    <configuration name="collect_loss" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Csv_to_output" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Models/R2N2/scripts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Models/Test_Set/Scripts" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="deepcrypto" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Models/R2N2/scripts/collect_loss.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Models/Test_Set/Scripts/Csv_to_output.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
+      <method />
     </configuration>
-    <configuration name="find_lowest_loss" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="plot_strats" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Models/RNN/scripts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Models/Test_Set/Scripts" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="deepcrypto" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Models/RNN/AWS/scripts/collect_loss.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Models/Test_Set/Scripts/plot_strats.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
+      <method />
     </configuration>
-    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="random_walk" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Models/RNN/Local/scripts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Models/Test_Set/Scripts" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="deepcrypto" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Models/RNN/Local/scripts/train.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Models/Test_Set/Scripts/random_walk.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
+      <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -458,6 +474,15 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <module name="deepcrypto" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -577,28 +602,20 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.find_lowest_loss" />
-      <item index="1" class="java.lang.String" itemvalue="Python.collect_loss" />
-      <item index="2" class="java.lang.String" itemvalue="Python.train" />
-      <item index="3" class="java.lang.String" itemvalue="Python.VAR" />
-      <item index="4" class="java.lang.String" itemvalue="Python.VARMAX" />
+      <item index="0" class="java.lang.String" itemvalue="Python.VAR" />
+      <item index="1" class="java.lang.String" itemvalue="Python.model_to_csv" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Csv_to_output" />
+      <item index="3" class="java.lang.String" itemvalue="Python.plot_strats" />
+      <item index="4" class="java.lang.String" itemvalue="Python.random_walk" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.VAR" />
-        <item index="1" class="java.lang.String" itemvalue="Python.VARMAX" />
-        <item index="2" class="java.lang.String" itemvalue="Python.train" />
-        <item index="3" class="java.lang.String" itemvalue="Python.collect_loss" />
-        <item index="4" class="java.lang.String" itemvalue="Python.find_lowest_loss" />
+        <item index="1" class="java.lang.String" itemvalue="Python.random_walk" />
+        <item index="2" class="java.lang.String" itemvalue="Python.plot_strats" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Csv_to_output" />
+        <item index="4" class="java.lang.String" itemvalue="Python.model_to_csv" />
       </list>
     </recent_temporary>
   </component>
@@ -616,32 +633,40 @@
       <option name="presentableId" value="Default" />
       <updated>1517863268555</updated>
     </task>
+    <task id="LOCAL-00001" summary="Ian's Push of testing code">
+      <created>1521520101274</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1521520101274</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="41" y="23" width="1378" height="797" extended-state="0" />
+    <frame x="-1440" y="304" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1874106" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3843888" sideWeight="0.502994" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3843888" sideWeight="0.497006" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3525449" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32695138" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20883234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32938075" sideWeight="0.497006" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39911634" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32695138" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39911634" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32842582" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -666,13 +691,17 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ian's Push of testing code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ian's Push of testing code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -698,23 +727,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Models/R2N2/scripts.py" />
-    <entry file="file://$PROJECT_DIR$/Models/RNN/milestone_work/scripts/scratch.py" />
-    <entry file="file://$PROJECT_DIR$/Models/Evaluation/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/Models/Baseline/plots/baseline_ts.png" />
-    <entry file="file://$PROJECT_DIR$/Models/Perfect/csvs/train_y.csv" />
-    <entry file="file://$PROJECT_DIR$/Models/Perfect/csvs/cross_val_y.csv" />
-    <entry file="file://$PROJECT_DIR$/Models/Perfect/csvs/test_y.csv" />
-    <entry file="file://$PROJECT_DIR$/Models/Perfect/plots/ts_Perfect_train.png" />
-    <entry file="file://$PROJECT_DIR$/Data/scripts/split_data.py" />
-    <entry file="file://$PROJECT_DIR$/Models/Perfect/plots/ts_Perfect_test.png" />
-    <entry file="file://$PROJECT_DIR$/Models/RNN/AWS/records/hs_10.txt" />
-    <entry file="file://$PROJECT_DIR$/Models/R2N2/scripts/scratch_hyperparameters.py" />
-    <entry file="file://$PROJECT_DIR$/Models/Perfect/plots/ts_Perfect_cross_val.png" />
-    <entry file="file://$PROJECT_DIR$/Models/R2N2/scripts/train_aws.py" />
-    <entry file="file://$PROJECT_DIR$/Models/Evaluation/scratch.py" />
-    <entry file="file://$PROJECT_DIR$/Models/RNN/scripts/scratch.py" />
-    <entry file="file://$PROJECT_DIR$/Models/RNN/AWS/records/SGD_9_43_100.txt" />
     <entry file="file://$PROJECT_DIR$/Models/Evaluation/evaluate_models.py" />
     <entry file="file://$PROJECT_DIR$/Models/Evaluation/eval.py" />
     <entry file="file://$PROJECT_DIR$/Models/R2N2/scripts/train_not_cuda.py" />
@@ -753,25 +765,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Models/RNN/AWS/model_compare/all_loss.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Models/R2N2/scripts/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/RNN/AWS/model_compare/all_loss.csv" />
+    <entry file="file://$PROJECT_DIR$/Models/R2N2/scripts/train.py" />
     <entry file="file://$PROJECT_DIR$/Data/scripts/data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -779,7 +778,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -793,7 +791,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Models/VARMAX/predicted_values_VARMAX_test.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="10">
           <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
           <folding />
         </state>
@@ -801,16 +799,131 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Models/VARMAX/VARMAX.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
+        <state relative-caret-position="340">
           <caret line="48" column="47" lean-forward="false" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/Test_Set/Pred_CSVs/VARMAX_test.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/Test_Set/Pred_CSVs/VAR_test.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/Test_Set/Pred_CSVs/R2N2_test.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/R2N2/Local/testing/model_to_csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/Test_Set/Plots/Baseline_auc.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/Test_Set/Plots/R2N2_auc.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/Test_Set/Plots/RNN_auc.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/Test_Set/Plots/VAR_auc.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/Test_Set/Plots/VARMAX_auc.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/Test_Set/results.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/Test_Set/Plots/backtest.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/Test_Set/Scripts/random_walk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/Test_Set/Plots/RNNMom_auc.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/Test_Set/Scripts/Csv_to_output.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="57" column="63" lean-forward="true" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/Test_Set/Scripts/plot_strats.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/VAR/predicted_values_VAR_optimal.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/VAR/One_order_VARmodel.pickle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Models/VAR/VAR.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="400">
+          <caret line="46" column="24" lean-forward="true" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
           <folding />
         </state>
       </provider>
