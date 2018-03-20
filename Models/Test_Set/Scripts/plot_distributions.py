@@ -16,7 +16,7 @@ for file in os.listdir(pred_dir):
 
     new_df = pd.read_csv(pred_dir + file, index_col= 0)
 
-    model = file.split('.')[0]
+    model = file.split('_')[0]
 
     new_mat = new_df.as_matrix()
 
@@ -26,9 +26,9 @@ for file in os.listdir(pred_dir):
 
     flat_diff = diff_mat.flatten()
 
-    plt.hist(flat_diff, bins= 100)
-    plt.title('{} Diff Hist'.format(model))
-    plt.savefig(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')) + '/extra_plots/{}_diff_hist.png'.format(model))
+    plt.hist(flat_new, bins= 100)
+    plt.title('{} Pred Hist'.format(model))
+    plt.savefig(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')) + '/extra_plots/{}_pred_hist.png'.format(model))
     plt.show()
     plt.clf()
 
