@@ -22,7 +22,7 @@ predictions_test = np.zeros((X_test.shape[0],X_test.shape[1]))
 X_test_matrix = X_test.values
 # predict one-step ahead out-of-sample
 for i in range(0,X_test.shape[0]):
-    predictions_test[i] = results.forecast(X_test_matrix[:i+1], steps=1)
+    predictions_test[i] = results.forecast(X_test_matrix[i,:].reshape(1,20), steps=1)
 
 # Turn back into panda dataframe and save to csv
 Test_pred = pd.DataFrame(data=predictions_test, index=X_test.index, columns=X_test.columns)
