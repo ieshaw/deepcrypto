@@ -19,7 +19,9 @@ for coin in coins:
 
     #create retruns
 
-    normal_df[coin+'return'] = (all_df['close'+coin] - all_df['open'+coin])/all_df['open'+coin]
+    # normal_df[coin+'return'] = (all_df['close'+coin] - all_df['open'+coin])/all_df['open'+coin]
+    # normal_df[coin + 'return'] = (all_df['close' + coin] * (all_df['open' + coin].pow(-1))) - 1
+    normal_df[coin + 'return'] = all_df['open' + coin].pct_change()
 
     #create spread
 

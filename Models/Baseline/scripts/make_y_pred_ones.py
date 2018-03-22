@@ -15,4 +15,4 @@ coins = ['ETH', 'XRP','LTC', 'DASH', 'XMR']
 
 Y_pred = (Y*0) + 1
 
-Y_pred.to_csv(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')) + '/csvs/baseline_test.csv')
+Y_pred.to_csv(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')) + '/csvs/baseline_test_extra.csv')

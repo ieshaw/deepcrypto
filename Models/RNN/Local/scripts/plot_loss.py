@@ -5,7 +5,7 @@ import os
 import pandas as pd
 
 
-model_string = 'Mom_Layer1_hiddenfor'
+model_string = 'EXTRA_Mom_Layer1_hiddenfor'
 hidden_size = 10
 model_name = '{}_H{}'.format(model_string, hidden_size)
 

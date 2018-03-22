@@ -77,10 +77,6 @@ for i in range(2,len(coins)):
 
     all_df = all_df.join(coin_df_dict[coins[i]], how='inner')
 
-#shift so that timestamp refers to knowledge at that moment in time
-
-all_df = all_df.shift(1)
-
 all_df = all_df.dropna()
 
 all_df.to_csv('{}/csvs/all_raw.csv'.format(data_dir))

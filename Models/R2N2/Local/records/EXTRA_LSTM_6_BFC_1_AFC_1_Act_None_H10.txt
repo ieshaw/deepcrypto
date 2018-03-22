@@ -1,0 +1,7 @@
+EXTRA_LSTM_6_BFC_1_AFC_1_Act_None 
+EXTRA_LSTM_6_BFC_1_AFC_1_Act_None_H10 
+Num_Epochs = 33
+Hidden_Size = 10
+Optimizer = Adam
+Learning Rate = 0.1
+Time spent = 736.6748189926147

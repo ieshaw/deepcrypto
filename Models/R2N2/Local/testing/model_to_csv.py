@@ -13,9 +13,9 @@ from Data.scripts.data import data
 from Models.R2N2.Local.scripts.RNN import RNN
 from Models.Evaluation.eval import eval_model
 
-model_string = 'R2N2Mom'
+model_string = 'R2N2_ETRA'
 
-model_params_file_str = '/Users/ianshaw/Downloads/GitHub/deepcrypto/Models/R2N2/Local/model_params/Mom_LSTM_6_BFC_1_AFC_1_Act_None_H10.pth.tar'
+model_params_file_str = '/Users/ianshaw/Downloads/GitHub/deepcrypto/Models/R2N2/Local/model_params/EXTRA_LSTM_6_BFC_1_AFC_1_Act_None_H10.pth.tar'
 
 
 X, Y = data.import_data(set='cross_val')
@@ -63,7 +63,8 @@ for iter in range(len(x)):
 
 X, Y = data.import_data(set='test')
 
-residual_df = pd.read_csv('/Users/ianshaw/Downloads/GitHub/deepcrypto/Models/Test_Set/Pred_CSVs/VAR_test.csv', index_col=0)
+residual_df = pd.read_csv('/Users/ianshaw/Downloads/GitHub/deepcrypto/Models/Extra/Test_Set/Pred_CSVs/VAR_extra.csv', index_col=0)
+ar_df = pd.read_csv('/Users/ianshaw/Downloads/GitHub/deepcrypto/Models/Extra/Test_Set/Pred_CSVs/VAR_extra.csv', index_col=0)
 x_returns = X[['ETHreturn', 'XRPreturn', 'LTCreturn', 'DASHreturn', 'XMRreturn']]
 residual_df = x_returns - residual_df
 X = X.join(residual_df, how='inner', rsuffix='residual')
@@ -82,6 +83,8 @@ for iter in range(len(x)):
 
     y_pred[iter] = output.data.numpy()
 
-Y_pred = pd.DataFrame(data=y_pred, index=Y.index, columns=Y.columns)
+# Y_pred = pd.DataFrame(data=y_pred, index=Y.index, columns=Y.columns)
+
+Y_pred = pd.DataFrame(data=y_pred + ar_df.as_matrix(), index=Y.index, columns=Y.columns)
 
 Y_pred.to_csv('{}_test.csv'.format(model_string))

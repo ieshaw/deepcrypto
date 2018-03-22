@@ -1,0 +1,7 @@
+EXTRA_Mom_Layer1_hiddenfor 
+EXTRA_Mom_Layer1_hiddenfor_H10 
+Num_Epochs = 85
+Hidden_Size = 10
+Optimizer = SGDM
+Learning Rate = 0.1
+Time spent = 834.1796841621399

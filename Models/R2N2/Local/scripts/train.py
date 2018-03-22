@@ -56,8 +56,8 @@ hidden_size = 10
 n_epochs = 300
 learning = 10
 lr = learning * 10e-3
-model_string = 'Mom_LSTM_6_BFC_1_AFC_1_Act_None'
-optim_string = 'SGD'
+model_string = 'EXTRA_LSTM_6_BFC_1_AFC_1_Act_None'
+optim_string = 'Adam'
 
 #set
 input_size = len(X.iloc[0:1].values[0])
@@ -67,11 +67,12 @@ output_size = len(Y.iloc[0:1].values[0])
 # model = RNN(hidden_size= hidden_size, input_size=len(X.iloc[0:1].values[0]), output_size= len(Y.iloc[0:1].values[0]))
 model = RNN(hidden_size= hidden_size, input_size= input_size, output_size= output_size)
 criterion = nn.MSELoss()
-optimizer = optim.SGD(model.parameters(), lr=lr, momentum= 0.01)
-
-# add leadning rate decay
-
-scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=max(int(n_epochs / 3), 1), gamma=0.1)
+optimizer = optim.Adam(model.parameters())
+# optimizer = optim.SGD(model.parameters(), lr=lr, momentum= 0.01)
+#
+# # add leadning rate decay
+#
+# scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=max(int(n_epochs / 3), 1), gamma=0.1)
 
 #train model
 losses = np.zeros(n_epochs) # For plotting
@@ -95,7 +96,7 @@ for epoch in range(n_epochs):
 
         losses[epoch] += loss.data[0]
 
-    scheduler.step()
+    #scheduler.step()
 
 
     print(epoch, losses[epoch])

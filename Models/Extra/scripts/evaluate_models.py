@@ -48,7 +48,6 @@ def run_model(params_file_string, hidden_size, X_df, Y_df, X_matrix, Y_matrix):
 
     return Y_pred, auc, mse
 
-
 #load in data
 
 X_train_df, Y_train_df = data.import_data(set='train')

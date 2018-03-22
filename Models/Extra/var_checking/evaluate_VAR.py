@@ -65,7 +65,7 @@ Y_train_pred_df, train_auc, train_mse = fit_VAR(results, 'train')
 
 Y_dev_pred_df, dev_auc, dev_mse = fit_VAR(results, 'cross_val')
 
-model_name = 'VAR'
+model_name = 'VAR_int'
 
 
 # run eval class

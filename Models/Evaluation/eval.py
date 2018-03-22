@@ -105,9 +105,9 @@ class eval_model:
 
     def __init__(self,y_pred_df, y_actual_df):
 
-        self.y_pred = y_pred_df
+        self.y_pred = y_pred_df.copy()
 
-        self.y_actual = y_actual_df
+        self.y_actual = y_actual_df.copy()
 
         self.y_pred.columns = self.y_actual.columns
 

@@ -17,9 +17,9 @@ X, Y = data.import_data(set='cross_val')
 x = X.as_matrix()
 y = Y.as_matrix()
 
-model_string = 'RNN'
+model_string = 'RNN_EXTRA'
 
-model_params_file_str = '/Users/ianshaw/Downloads/GitHub/deepcrypto/Models/RNN/Local/model_params/Layer1_Relu_hiddenfor_H10.pth.tar'
+model_params_file_str = '/Users/ianshaw/Downloads/GitHub/deepcrypto/Models/RNN/Local/model_params/EXTRA_Mom_Layer1_hiddenfor_H10.pth.tar'
 
 hidden_size = 10
 

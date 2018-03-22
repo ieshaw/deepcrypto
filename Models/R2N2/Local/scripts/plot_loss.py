@@ -5,7 +5,7 @@ import os
 import pandas as pd
 
 
-model_string = 'LSTM_6_BFC_1_AFC_1_Act_None'
+model_string = 'EXTRA_LSTM_6_BFC_1_AFC_1_Act_None'
 hidden_size = 10
 model_name = '{}_H{}'.format(model_string, hidden_size)
 
