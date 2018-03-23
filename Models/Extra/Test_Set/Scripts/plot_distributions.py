@@ -26,8 +26,13 @@ for file in os.listdir(pred_dir):
 
     flat_diff = diff_mat.flatten()
 
-    plt.hist(flat_new, bins= 100)
-    plt.title('{} Pred Hist'.format(model))
+    plt.hist(y_mat.flatten(), bins=300, label= 'Realized', normed=True)
+    plt.hist(flat_new, bins=300, label=model, normed=True)
+    plt.legend()
+    plt.ylim((0, 250))
+    # plt.xlim((-0.3, 0.3))
+    plt.xlim((-0.03, 0.03))
+    plt.title('{} Prediction Histogram'.format(model))
     plt.savefig(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')) + '/extra_plots/{}_pred_hist.png'.format(model))
     plt.show()
     plt.clf()

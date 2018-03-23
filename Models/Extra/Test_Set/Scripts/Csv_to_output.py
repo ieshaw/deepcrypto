@@ -35,7 +35,7 @@ for file in os.listdir(pred_dir):
 
     tester.accuracy(printer=False)
 
-    out_dict = {}
+    #out_dict = {}
 
     out_dict['Accuracy'] = tester.accuracy_score
 
